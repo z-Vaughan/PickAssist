@@ -1,0 +1,13 @@
+LICENSE
+README.rst
+setup.py
+AmznReq.egg-info/PKG-INFO
+AmznReq.egg-info/SOURCES.txt
+AmznReq.egg-info/dependency_links.txt
+AmznReq.egg-info/requires.txt
+AmznReq.egg-info/top_level.txt
+amzn_req/__init__.py
+amzn_req/_constants.py
+amzn_req/_cookie.py
+amzn_req/_task.py
+amzn_req/exception.py
