@@ -1,0 +1,90 @@
+{
+    "site_code": "KRB1",
+    "timezone": "America/Los_Angeles",
+    "pick_areas": {
+        "pa100-115": {
+            "Start Aisle": "100",
+            "End Aisle": "115",
+            "Start Slot": "100",
+            "End Slot": "600",
+            "Cluster": ""
+        },
+        "pa116-121": {
+            "Start Aisle": "116",
+            "End Aisle": "121",
+            "Start Slot": "100",
+            "End Slot": "600",
+            "Cluster": ""
+        },
+        "pa122-129": {
+            "Start Aisle": "122",
+            "End Aisle": "129",
+            "Start Slot": "100",
+            "End Slot": "600",
+            "Cluster": ""
+        },
+        "pa130-137": {
+            "Start Aisle": "130",
+            "End Aisle": "139",
+            "Start Slot": "100",
+            "End Slot": "600",
+            "Cluster": ""
+        },
+        "pa138-149": {
+            "Start Aisle": "138",
+            "End Aisle": "149",
+            "Start Slot": "100",
+            "End Slot": "600",
+            "Cluster": ""
+        },
+        "pa150-165": {
+            "Start Aisle": "150",
+            "End Aisle": "165",
+            "Start Slot": "320",
+            "End Slot": "600",
+            "Cluster": ""
+        },
+        "pa166-181": {
+            "Start Aisle": "166",
+            "End Aisle": "181",
+            "Start Slot": "320",
+            "End Slot": "600",
+            "Cluster": ""
+        },
+        "pa182-197": {
+            "Start Aisle": "182",
+            "End Aisle": "197",
+            "Start Slot": "320",
+            "End Slot": "600",
+            "Cluster": ""
+        },
+        "pa198-217": {
+            "Start Aisle": "198",
+            "End Aisle": "217",
+            "Start Slot": "320",
+            "End Slot": "600",
+            "Cluster": ""
+        },
+        "paCONSTRUCTIONP": {
+            "Start Aisle": "310",
+            "End Aisle": "311",
+            "Start Slot": "330",
+            "End Slot": "535",
+            "Cluster": ""
+        },
+        "paRack01": {
+            "Start Aisle": "300",
+            "End Aisle": "315",
+            "Start Slot": "330",
+            "End Slot": "535",
+            "Cluster": ""
+        },
+        "paRack02": {
+            "Start Aisle": "316",
+            "End Aisle": "323",
+            "Start Slot": "330",
+            "End Slot": "535",
+            "Cluster": ""
+        }
+    }
+}
