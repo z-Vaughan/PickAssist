@@ -1,0 +1,26 @@
+project_root/
+├── src/
+│   ├── auth/
+│   │   └── midway.py
+│   ├── config/
+│   │   ├── res/
+│   │   │   └── amzn_req-main/
+│   │   ├── chronos.py
+│   │   ├── constants.py
+│   │   ├── res_finder.py
+│   │   ├── site_build.py
+│   │   └── versioning.py
+│   ├── data/
+│   │   ├── areq.py
+│   │   └── processor.py
+│   ├── logs/
+│   ├── ui/
+│   │   ├── app.py
+│   │   ├── input_dialog.py
+│   │   └── tabs.py
+│   ├── utils/
+│   │   └──logger.py
+│   └── main.py
+├── LICENSE
+├── requirements.txt
+└── SDCPickAssist.spec
