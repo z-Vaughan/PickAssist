@@ -4,10 +4,10 @@ SDC Pick Clustering and Labor Optimization
 
 
 ```python
-    _____________________________________
-   / Please Retain Credit:              /
-  / Created by Zac Vaughan (zavaugha)  / 
- /__Last Update: 3/7/2025_____________/   
+    _________________________
+   / Please Retain Credit:  /
+  / Created by Zac Vaughan / 
+ /__Last Update: 3/7/2025_/   
   
    /\_/\
   ( ō.ō ) ~Howdy, y'all
