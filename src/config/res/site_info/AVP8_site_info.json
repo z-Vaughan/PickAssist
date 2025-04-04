@@ -1,0 +1,174 @@
+{
+    "site_code": "AVP8",
+    "timezone": "America/New_York",
+    "pick_areas": {
+        "paIBVS": {
+            "Start Aisle": "1L2",
+            "End Aisle": "1L2",
+            "Start Slot": 0,
+            "End Slot": 0,
+            "Cluster": ""
+        },
+        "paISSBIN": {
+            "Start Aisle": "1L1",
+            "End Aisle": "1L1",
+            "Start Slot": 0,
+            "End Slot": 0,
+            "Cluster": ""
+        },
+        "paPAL301-304": {
+            "Start Aisle": "301",
+            "End Aisle": "304",
+            "Start Slot": "100",
+            "End Slot": "295",
+            "Cluster": ""
+        },
+        "paPAL305-308": {
+            "Start Aisle": "305",
+            "End Aisle": "308",
+            "Start Slot": "100",
+            "End Slot": "295",
+            "Cluster": ""
+        },
+        "paPAL309-312": {
+            "Start Aisle": "309",
+            "End Aisle": "312",
+            "Start Slot": "160",
+            "End Slot": "295",
+            "Cluster": ""
+        },
+        "paPAL313-314": {
+            "Start Aisle": "313",
+            "End Aisle": "314",
+            "Start Slot": "160",
+            "End Slot": "295",
+            "Cluster": ""
+        },
+        "paVNA101-108": {
+            "Start Aisle": "101",
+            "End Aisle": "108",
+            "Start Slot": "300",
+            "End Slot": "452",
+            "Cluster": ""
+        },
+        "paVNA109-118": {
+            "Start Aisle": "109",
+            "End Aisle": "118",
+            "Start Slot": "300",
+            "End Slot": "452",
+            "Cluster": ""
+        },
+        "paVNA119-128": {
+            "Start Aisle": "119",
+            "End Aisle": "128",
+            "Start Slot": "100",
+            "End Slot": "452",
+            "Cluster": ""
+        },
+        "paVNA129-136": {
+            "Start Aisle": "129",
+            "End Aisle": "136",
+            "Start Slot": "100",
+            "End Slot": "382",
+            "Cluster": ""
+        },
+        "paVNA137-144": {
+            "Start Aisle": "137",
+            "End Aisle": "144",
+            "Start Slot": "100",
+            "End Slot": "382",
+            "Cluster": ""
+        },
+        "paVNA145-152": {
+            "Start Aisle": "145",
+            "End Aisle": "152",
+            "Start Slot": "100",
+            "End Slot": "382",
+            "Cluster": ""
+        },
+        "paVNA201-210": {
+            "Start Aisle": "201",
+            "End Aisle": "210",
+            "Start Slot": "100",
+            "End Slot": "382",
+            "Cluster": ""
+        },
+        "paVNA211-226": {
+            "Start Aisle": "211",
+            "End Aisle": "226",
+            "Start Slot": "100",
+            "End Slot": "382",
+            "Cluster": ""
+        },
+        "paVNA227-238": {
+            "Start Aisle": "227",
+            "End Aisle": "238",
+            "Start Slot": "100",
+            "End Slot": "382",
+            "Cluster": ""
+        },
+        "paVNA239-250": {
+            "Start Aisle": "239",
+            "End Aisle": "250",
+            "Start Slot": "100",
+            "End Slot": "382",
+            "Cluster": ""
+        },
+        "paVNA251-262": {
+            "Start Aisle": "251",
+            "End Aisle": "262",
+            "Start Slot": "100",
+            "End Slot": "382",
+            "Cluster": ""
+        },
+        "paVNA263-272": {
+            "Start Aisle": "263",
+            "End Aisle": "272",
+            "Start Slot": "100",
+            "End Slot": "382",
+            "Cluster": ""
+        },
+        "paVNA401-408": {
+            "Start Aisle": "401",
+            "End Aisle": "408",
+            "Start Slot": "105",
+            "End Slot": "500",
+            "Cluster": ""
+        },
+        "paVNA409-416": {
+            "Start Aisle": "409",
+            "End Aisle": "416",
+            "Start Slot": "105",
+            "End Slot": "500",
+            "Cluster": ""
+        },
+        "paVNA417-424": {
+            "Start Aisle": "417",
+            "End Aisle": "424",
+            "Start Slot": "105",
+            "End Slot": "535",
+            "Cluster": ""
+        },
+        "paVNA425-432": {
+            "Start Aisle": "425",
+            "End Aisle": "432",
+            "Start Slot": "115",
+            "End Slot": "535",
+            "Cluster": ""
+        },
+        "paVNA433-440": {
+            "Start Aisle": "433",
+            "End Aisle": "440",
+            "Start Slot": "115",
+            "End Slot": "535",
+            "Cluster": ""
+        },
+        "paVNA441-452": {
+            "Start Aisle": "441",
+            "End Aisle": "452",
+            "Start Slot": "100",
+            "End Slot": "535",
+            "Cluster": ""
+        }
+    }
+}

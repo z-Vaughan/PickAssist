@@ -1,0 +1,97 @@
+{
+    "site_code": "KRB3",
+    "timezone": "America/Phoenix",
+    "pick_areas": {
+        "paRack01": {
+            "Start Aisle": "101",
+            "End Aisle": "112",
+            "Start Slot": "220",
+            "End Slot": "325",
+            "Cluster": ""
+        },
+        "paVNA01": {
+            "Start Aisle": "201",
+            "End Aisle": "212",
+            "Start Slot": "220",
+            "End Slot": "505",
+            "Cluster": ""
+        },
+        "paVNA02": {
+            "Start Aisle": "213",
+            "End Aisle": "222",
+            "Start Slot": "160",
+            "End Slot": "505",
+            "Cluster": ""
+        },
+        "paVNA03": {
+            "Start Aisle": "223",
+            "End Aisle": "232",
+            "Start Slot": "160",
+            "End Slot": "505",
+            "Cluster": ""
+        },
+        "paVNA04": {
+            "Start Aisle": "233",
+            "End Aisle": "242",
+            "Start Slot": "160",
+            "End Slot": "505",
+            "Cluster": ""
+        },
+        "paVNA05": {
+            "Start Aisle": "243",
+            "End Aisle": "252",
+            "Start Slot": "160",
+            "End Slot": "505",
+            "Cluster": ""
+        },
+        "paVNA06": {
+            "Start Aisle": "253",
+            "End Aisle": "262",
+            "Start Slot": "160",
+            "End Slot": "505",
+            "Cluster": ""
+        },
+        "paVNA07": {
+            "Start Aisle": "263",
+            "End Aisle": "270",
+            "Start Slot": "160",
+            "End Slot": "505",
+            "Cluster": ""
+        },
+        "paVNA08": {
+            "Start Aisle": "271",
+            "End Aisle": "278",
+            "Start Slot": "160",
+            "End Slot": "505",
+            "Cluster": ""
+        },
+        "paVNA09": {
+            "Start Aisle": "283",
+            "End Aisle": "288",
+            "Start Slot": "105",
+            "End Slot": "555",
+            "Cluster": ""
+        },
+        "paVNA10": {
+            "Start Aisle": "289",
+            "End Aisle": "294",
+            "Start Slot": "105",
+            "End Slot": "555",
+            "Cluster": ""
+        },
+        "paVNA11": {
+            "Start Aisle": "295",
+            "End Aisle": "300",
+            "Start Slot": "105",
+            "End Slot": "555",
+            "Cluster": ""
+        },
+        "paVNA12": {
+            "Start Aisle": "301",
+            "End Aisle": "306",
+            "Start Slot": "105",
+            "End Slot": "555",
+            "Cluster": ""
+        }
+    }
+}

@@ -1,0 +1,1635 @@
+
+2025-04-04 15:08:27 | Runtime: 0:00:04 | INFO     | root:init:102 |
+Logging initialized
+
+2025-04-04 15:08:29 | Runtime: 0:00:06 | INFO     | src.config.versioning:check_version:40 |
+Current version (1.6.6) is up to date.
+
+2025-04-04 15:08:34 | Runtime: 0:00:12 | INFO     | src.config.chronos:set_timezone:145 |
+CURRENT TIMEZONE: America/New_York
+
+2025-04-04 15:08:34 | Runtime: 0:00:12 | INFO     | src.config.chronos:setup_shift:113 |
+Setting up shift for site SAV7 with start hour 7 and end hour 18
+
+2025-04-04 15:08:34 | Runtime: 0:00:12 | INFO     | src.config.chronos:calculate_shift_times:218 |
+Time Variables Calculated
+Shift Times: 07:00:00 - 18:00:00
+Millisecond Times: 1743768300000 - 1743887100000
+Total Hours: 11:00:00
+Elapsed Time: 8:08:34.932214
+Hours Remaining: 2:51:25.067786
+Current Time: 15:08:34
+
+2025-04-04 15:08:34 | Runtime: 0:00:12 | INFO     | src.config.chronos:setup_shift:121 |
+Shift setup successful for site SAV7
+
+2025-04-04 15:08:34 | Runtime: 0:00:12 | INFO     | src.config.site_build:__init__:58 |
+SiteBuilder Initialized:
+- Site Code: SAV7
+- Shift Start: 2025-04-04 07:00:00-04:00
+
+2025-04-04 15:08:34 | Runtime: 0:00:12 | INFO     | src.config.site_build:get_site_info:95 |
+No pick areas loaded, attempting to load
+
+2025-04-04 15:08:34 | Runtime: 0:00:12 | INFO     | src.config.site_build:load_pick_areas:290 |
+=== Starting load_pick_areas ===
+
+2025-04-04 15:08:35 | Runtime: 0:00:12 | INFO     | src.config.site_build:load_pick_areas:306 |
+Loading from network path: //ant/dept-na/SAV7/Public/PickAssist/Areas\SAV7_site_info.json
+
+2025-04-04 15:08:35 | Runtime: 0:00:12 | INFO     | src.config.site_build:load_pick_areas:317 |
+Successfully loaded pick areas from network for SAV7
+
+2025-04-04 15:08:35 | Runtime: 0:00:12 | INFO     | src.config.site_build:load_pick_areas:318 |
+shape: (11, 6)
+┌──────────┬─────────────┬───────────┬────────────┬──────────┬─────────┐
+│ Name     ┆ Start Aisle ┆ End Aisle ┆ Start Slot ┆ End Slot ┆ Cluster │
+│ ---      ┆ ---         ┆ ---       ┆ ---        ┆ ---      ┆ ---     │
+│ str      ┆ str         ┆ str       ┆ str        ┆ str      ┆ str     │
+╞══════════╪═════════════╪═══════════╪════════════╪══════════╪═════════╡
+│ paRack01 ┆ 300         ┆ 306       ┆ 145        ┆ 790      ┆         │
+│ paVNA01  ┆ 101         ┆ 121       ┆ 152        ┆ 570      ┆         │
+│ paVNA02  ┆ 122         ┆ 143       ┆ 152        ┆ 570      ┆         │
+│ paVNA03  ┆ 144         ┆ 164       ┆ 152        ┆ 570      ┆         │
+│ paVNA04  ┆ 165         ┆ 185       ┆ 140        ┆ 570      ┆         │
+│ …        ┆ …           ┆ …         ┆ …          ┆ …        ┆ …       │
+│ paVNA06  ┆ 207         ┆ 227       ┆ 140        ┆ 570      ┆         │
+│ paVNA07  ┆ 228         ┆ 243       ┆ 140        ┆ 570      ┆         │
+│ paVNA08  ┆ 401         ┆ 424       ┆ 100        ┆ 602      ┆         │
+│ paVNA09  ┆ 425         ┆ 448       ┆ 100        ┆ 602      ┆         │
+│ paVNA10  ┆ 449         ┆ 472       ┆ 100        ┆ 602      ┆         │
+└──────────┴─────────────┴───────────┴────────────┴──────────┴─────────┘
+
+2025-04-04 15:08:35 | Runtime: 0:00:12 | INFO     | src.config.site_build:load_pick_areas:330 |
+Successfully saved network data to local file: C:\Users\zavaugha\Projects\Python\PickAssistv2\root\src\config\res\site_info\SAV7_site_info.json
+
+2025-04-04 15:08:35 | Runtime: 0:00:12 | INFO     | src.config.site_build:load_pick_areas:338 |
+=== Completed load_pick_areas ===
+
+2025-04-04 15:08:35 | Runtime: 0:00:12 | INFO     | src.config.site_build:get_site_info:100 |
+No plan data loaded, attempting to load
+
+2025-04-04 15:08:35 | Runtime: 0:00:12 | INFO     | src.config.site_build:load_recent_plan:118 |
+=== Starting load_recent_plan ===
+
+2025-04-04 15:08:35 | Runtime: 0:00:12 | INFO     | src.config.site_build:load_recent_plan:125 |
+Initial shift_start: 2025-04-04 07:00:00-04:00
+
+2025-04-04 15:08:35 | Runtime: 0:00:12 | INFO     | src.config.site_build:load_recent_plan:126 |
+shift_start type: <class 'datetime.datetime'>
+
+2025-04-04 15:08:35 | Runtime: 0:00:12 | INFO     | src.config.site_build:load_recent_plan:127 |
+shift_start tzinfo: America/New_York
+
+2025-04-04 15:08:35 | Runtime: 0:00:12 | INFO     | src.config.site_build:load_recent_plan:135 |
+Shift Start had TZ, stripped and calculated one_hour_before: 2025-04-04 06:00:00
+
+2025-04-04 15:08:35 | Runtime: 0:00:12 | INFO     | src.config.site_build:load_recent_plan:141 |
+Searching for plans between: 2025-04-04 06:00:00 and 2025-04-04 07:00:00-04:00
+
+2025-04-04 15:08:35 | Runtime: 0:00:12 | INFO     | src.config.site_build:load_recent_plan:149 |
+Looking for plans in directory: \\ant\dept-na\SAV7\Public\PickAssist\Plans\SAV7
+
+2025-04-04 15:08:35 | Runtime: 0:00:13 | INFO     | src.config.site_build:load_recent_plan:162 |
+=== Starting file search ===
+
+2025-04-04 15:08:36 | Runtime: 0:00:13 | DEBUG    | src.config.site_build:load_recent_plan:172 |
+Processing file: SAV7_20250404_1046.json
+
+2025-04-04 15:08:36 | Runtime: 0:00:13 | DEBUG    | src.config.site_build:load_recent_plan:173 |
+File modification time: 2025-04-04 10:46:45.252236
+
+2025-04-04 15:08:36 | Runtime: 0:00:13 | DEBUG    | src.config.site_build:load_recent_plan:183 |
+File matches time window: SAV7_20250404_1046.json
+
+2025-04-04 15:08:36 | Runtime: 0:00:13 | DEBUG    | src.config.site_build:load_recent_plan:172 |
+Processing file: SAV7_20250404_1410.json
+
+2025-04-04 15:08:36 | Runtime: 0:00:13 | DEBUG    | src.config.site_build:load_recent_plan:173 |
+File modification time: 2025-04-04 14:10:05.399755
+
+2025-04-04 15:08:36 | Runtime: 0:00:13 | DEBUG    | src.config.site_build:load_recent_plan:183 |
+File matches time window: SAV7_20250404_1410.json
+
+2025-04-04 15:08:36 | Runtime: 0:00:13 | INFO     | src.config.site_build:load_recent_plan:185 |
+File search complete. Total files: 2, JSON files: 2, Matching files: 2
+
+2025-04-04 15:08:36 | Runtime: 0:00:13 | INFO     | src.config.site_build:load_recent_plan:228 |
+Selected most recent file: \\ant\dept-na\SAV7\Public\PickAssist\Plans\SAV7\SAV7_20250404_1410.json
+
+2025-04-04 15:08:36 | Runtime: 0:00:14 | INFO     | src.config.site_build:load_recent_plan:232 |
+Reading plan file: \\ant\dept-na\SAV7\Public\PickAssist\Plans\SAV7\SAV7_20250404_1410.json
+
+2025-04-04 15:08:36 | Runtime: 0:00:14 | INFO     | src.config.site_build:load_recent_plan:236 |
+=== Plan Data Summary ===
+
+2025-04-04 15:08:36 | Runtime: 0:00:14 | INFO     | src.config.site_build:load_recent_plan:238 |
+Timestamp: Not found
+
+2025-04-04 15:08:36 | Runtime: 0:00:14 | INFO     | src.config.site_build:load_recent_plan:239 |
+Submitted by: Not found
+
+2025-04-04 15:08:36 | Runtime: 0:00:14 | INFO     | src.config.site_build:load_recent_plan:240 |
+Site code: Not found
+
+2025-04-04 15:08:36 | Runtime: 0:00:14 | INFO     | src.config.site_build:load_recent_plan:246 |
+=== Full Plan Data ===
+
+2025-04-04 15:08:36 | Runtime: 0:00:14 | INFO     | src.config.site_build:load_recent_plan:247 |
+Plan Data: {
+  "inputs": {
+    "target_volume": 8000,
+    "target_rate": 47.8
+  },
+  "calculated": {
+    "hours_remaining": 0.8952777777777777,
+    "remaining_volume": 1043,
+    "target_headcount": 20.92050209205021,
+    "target_hours": 167.36401673640168
+  },
+  "volume": {
+    "picked": 6957,
+    "mandatory_remaining": 0,
+    "flexible_remaining": 3145,
+    "planned": 3341.05,
+    "planned_hov": 1033,
+    "planned_non_hov": 2308.05,
+    "planned_remaining": 1049.05
+  },
+  "cpt_breakdown": {
+    "04-05 05:00": {
+      "hours_to_pick": 0.8952777777777777,
+      "plan_picks": 2308.05,
+      "mandatory": false,
+      "plan_picks_left": 16.049999999999862,
+      "PPTRANSTLH2CASE": {
+        "total_cases": 580,
+        "cases_picked": 13,
+        "cases_left": 567,
+        "avg_cph": 23.64,
+        "percent_to_pick": 0.03,
+        "calculated_cases": 17.4,
+        "target_headcount": 0.20789660608790556,
+        "calculated_cases_left": 4.399999999999999
+      },
+      "PPTRANSTPA1CASE": {
+        "total_cases": 2481,
+        "cases_picked": 1709,
+        "cases_left": 772,
+        "avg_cph": 41.12,
+        "percent_to_pick": 0.69,
+        "calculated_cases": 1711.8899999999999,
+        "target_headcount": 0.07850312261939917,
+        "calculated_cases_left": 2.8899999999998727
+      },
+      "PPTRANSTPA4CASE": {
+        "total_cases": 1113,
+        "cases_picked": 570,
+        "cases_left": 543,
+        "avg_cph": 26.32,
+        "percent_to_pick": 0.52,
+        "calculated_cases": 578.76,
+        "target_headcount": 0.3717580799855141,
+        "calculated_cases_left": 8.759999999999991
+      }
+    },
+    "HOV": {
+      "hours_to_pick": 0.8952777777777777,
+      "plan_picks": 1033,
+      "mandatory": false,
+      "plan_picks_left": 1033,
+      "PPHOVRESERVEPTE": {
+        "cases_to_pick": 3219,
+        "total_cases": 5331,
+        "cases_picked": 2186,
+        "cases_left": 3145,
+        "avg_cph": 97.55,
+        "percent_to_pick": 0,
+        "calculated_cases": 1033,
+        "target_headcount": 11.828106957409688,
+        "calculated_cases_left": 1033
+      }
+    }
+  }
+}
+
+2025-04-04 15:08:36 | Runtime: 0:00:14 | INFO     | src.config.site_build:load_recent_plan:249 |
+Successfully loaded plan data from network
+
+2025-04-04 15:08:36 | Runtime: 0:00:14 | INFO     | src.config.site_build:load_recent_plan:274 |
+Plan data successfully loaded and stored in instance
+
+2025-04-04 15:08:36 | Runtime: 0:00:14 | INFO     | src.config.site_build:load_recent_plan:275 |
+=== Completed load_recent_plan ===
+
+2025-04-04 15:08:36 | Runtime: 0:00:14 | INFO     | src.auth.midway:authenticate:77 |
+New Session Initiated...
+
+2025-04-04 15:08:37 | Runtime: 0:00:15 | INFO     | src.auth.midway:authenticate:100 |
+Auth Status: True
+
+2025-04-04 15:08:37 | Runtime: 0:00:15 | INFO     | src.auth.midway:authenticate:113 |
+Fresh Cookies!
+
+2025-04-04 15:08:37 | Runtime: 0:00:15 | INFO     | src.auth.midway:authenticate:187 |
+Authenticated Successfully.
+
+2025-04-04 15:08:37 | Runtime: 0:00:15 | INFO     | ui.app:initialize_main_window:235 |
+Site: SAV7
+
+2025-04-04 15:08:37 | Runtime: 0:00:15 | INFO     | src.ui.tabs:handle_refresh_state:2078 |
+Refresh Check State: False
+
+2025-04-04 15:08:37 | Runtime: 0:00:15 | INFO     | src.ui.tabs:disable_refresh:2185 |
+Auto-refresh disabled
+
+2025-04-04 15:08:37 | Runtime: 0:00:15 | INFO     | src.ui.tabs:handle_pad_state:2093 |
+Pad Time Check State: False
+
+2025-04-04 15:08:37 | Runtime: 0:00:15 | INFO     | src.ui.tabs:disable_pad:2116 |
+Pad Time disabled
+
+2025-04-04 15:08:37 | Runtime: 0:00:15 | DEBUG    | PIL.PngImagePlugin:call:198 |
+STREAM b'IHDR' 16 13
+
+2025-04-04 15:08:37 | Runtime: 0:00:15 | DEBUG    | PIL.PngImagePlugin:call:198 |
+STREAM b'sRGB' 41 1
+
+2025-04-04 15:08:37 | Runtime: 0:00:15 | DEBUG    | PIL.PngImagePlugin:call:198 |
+STREAM b'gAMA' 54 4
+
+2025-04-04 15:08:37 | Runtime: 0:00:15 | DEBUG    | PIL.PngImagePlugin:call:198 |
+STREAM b'pHYs' 70 9
+
+2025-04-04 15:08:37 | Runtime: 0:00:15 | DEBUG    | PIL.PngImagePlugin:call:198 |
+STREAM b'IDAT' 91 4753
+
+2025-04-04 15:08:37 | Runtime: 0:00:15 | INFO     | ui.app:initialize_main_window:357 |
+GUI Initialized Successfully.
+
+2025-04-04 15:09:49 | Runtime: 0:01:26 | INFO     | ui.app:handle_go_button_click:642 |
+Go button clicked
+
+2025-04-04 15:09:49 | Runtime: 0:01:26 | INFO     | src.config.chronos:set_timezone:145 |
+CURRENT TIMEZONE: America/New_York
+
+2025-04-04 15:09:49 | Runtime: 0:01:26 | INFO     | src.config.chronos:setup_shift:113 |
+Setting up shift for site SAV7 with start hour 7 and end hour 18
+
+2025-04-04 15:09:49 | Runtime: 0:01:26 | INFO     | src.config.chronos:calculate_shift_times:218 |
+Time Variables Calculated
+Shift Times: 07:00:00 - 18:00:00
+Millisecond Times: 1743768300000 - 1743887100000
+Total Hours: 11:00:00
+Elapsed Time: 8:09:49.347488
+Hours Remaining: 2:50:10.652512
+Current Time: 15:09:49
+
+2025-04-04 15:09:49 | Runtime: 0:01:26 | INFO     | src.config.chronos:setup_shift:121 |
+Shift setup successful for site SAV7
+
+2025-04-04 15:09:49 | Runtime: 0:01:26 | INFO     | src.config.chronos:update_shift:88 |
+Shift updated successfully
+
+2025-04-04 15:09:49 | Runtime: 0:01:26 | INFO     | ui.app:check_shift_times:1039 |
+Shift time remaining: 2.856963273888889 hours
+
+2025-04-04 15:09:49 | Runtime: 0:01:26 | INFO     | ui.app:handle_go_button_click:669 |
+Manual refresh requested (refresh off)
+
+2025-04-04 15:09:49 | Runtime: 0:01:26 | INFO     | src.config.chronos:set_timezone:145 |
+CURRENT TIMEZONE: America/New_York
+
+2025-04-04 15:09:49 | Runtime: 0:01:26 | INFO     | src.config.chronos:setup_shift:113 |
+Setting up shift for site SAV7 with start hour 7 and end hour 18
+
+2025-04-04 15:09:49 | Runtime: 0:01:26 | INFO     | src.config.chronos:calculate_shift_times:218 |
+Time Variables Calculated
+Shift Times: 07:00:00 - 18:00:00
+Millisecond Times: 1743768300000 - 1743887100000
+Total Hours: 11:00:00
+Elapsed Time: 8:09:49.353264
+Hours Remaining: 2:50:10.646736
+Current Time: 15:09:49
+
+2025-04-04 15:09:49 | Runtime: 0:01:26 | DEBUG    | asyncio:__init__:634 |
+Using proactor: IocpProactor
+
+2025-04-04 15:09:49 | Runtime: 0:01:26 | INFO     | src.config.chronos:setup_shift:121 |
+Shift setup successful for site SAV7
+
+2025-04-04 15:09:49 | Runtime: 0:01:26 | INFO     | src.config.chronos:update_shift:88 |
+Shift updated successfully
+
+2025-04-04 15:09:49 | Runtime: 0:01:27 | INFO     | src.data.areq:build_urls:142 |
+URL: Rodeo
+http://rodeo-iad.amazon.com:80/SAV7/ItemListCSV?ShipmentId=&ChargeRange.RangeStartMillis=&ScannableId=&ShipMethod=&WorkPool=PickingNotYetPicked&EulerGroupType=&FcSku=&IsEulerPromiseMiss=ALL&GiftOption=ALL&NextDestination=&shipmentType=TRANSSHIPMENTS&ShipOption=&Excel=true&ChargeRange.RangeEndMillis=&FnSku=&_enabledColumns=on&Condition=&DwellTimeLessThan=0&DwellTimeLessThan=&ExSDRange.RangeStartMillis=1743768300000&LastExSDRange.RangeStartMillis=&DwellTimeGreaterThan=0&DwellTimeGreaterThan=&ExSDRange.RangeEndMillis=1743887100000&Fracs=ALL&PickBatchId=&SortCode=&DestinationWarehouseId=&ProcessPath=&IsReactiveTransfer=ALL&IsEulerUpgraded=ALL&OuterContainerType=&PickPriority=&enabledColumns=OUTER_SCANNABLE_ID&enabledColumns=OUTER_OUTER_SCANNABLE_ID&FulfillmentServiceClass=ALL&LastExSDRange.RangeEndMillis=&IsEulerExSDMiss=ALL&FulfillmentReferenceId=
+
+2025-04-04 15:09:49 | Runtime: 0:01:27 | INFO     | src.data.areq:build_urls:142 |
+URL: LPI
+https://fclm-portal.amazon.com/ppa/inspect/process?primaryAttribute=WORK_FLOW&secondaryAttribute=PICKING_PROCESS_PATH&nodeType=FC&warehouseId=SAV7&processId=100115&maxIntradayDays=1&spanType=Intraday&startDateIntraday=2025%2F04%2F04&startHourIntraday=7&startMinuteIntraday=0&endDateIntraday=2025%2F04%2F04&endHourIntraday=18&endMinuteIntraday=0
+
+2025-04-04 15:09:49 | Runtime: 0:01:27 | INFO     | src.data.areq:build_urls:142 |
+URL: LPI(Hist)
+https://fclm-portal.amazon.com/ppa/inspect/process?primaryAttribute=WORK_FLOW&secondaryAttribute=PICKING_PROCESS_PATH&nodeType=FC&warehouseId=SAV7&processId=100115&maxIntradayDays=1&spanType=Week&startDateWeek=2025%2F03%2F28
+
+2025-04-04 15:09:49 | Runtime: 0:01:27 | INFO     | src.data.areq:build_urls:142 |
+URL: Workforce
+https://picking-console.na.picking.aft.a2z.com/api/fcs/SAV7/workforce
+
+2025-04-04 15:09:49 | Runtime: 0:01:27 | INFO     | src.data.areq:build_urls:142 |
+URL: Process
+https://picking-console.na.picking.aft.a2z.com/api/fcs/SAV7/process-paths/information
+
+2025-04-04 15:09:49 | Runtime: 0:01:27 | INFO     | src.data.areq:_make_request:469 |
+Making request for Rodeo...
+
+2025-04-04 15:09:49 | Runtime: 0:01:27 | INFO     | src.data.areq:_make_request:471 |
+URL: http://rodeo-iad.amazon.com:80/SAV7/ItemListCSV?ShipmentId=&ChargeRange.RangeStartMillis=&ScannableId=&ShipMethod=&WorkPool=PickingNotYetPicked&EulerGroupType=&FcSku=&IsEulerPromiseMiss=ALL&GiftOption=ALL&NextDestination=&shipmentType=TRANSSHIPMENTS&ShipOption=&Excel=true&ChargeRange.RangeEndMillis=&FnSku=&_enabledColumns=on&Condition=&DwellTimeLessThan=0&DwellTimeLessThan=&ExSDRange.RangeStartMillis=1743768300000&LastExSDRange.RangeStartMillis=&DwellTimeGreaterThan=0&DwellTimeGreaterThan=&ExSDRange.RangeEndMillis=1743887100000&Fracs=ALL&PickBatchId=&SortCode=&DestinationWarehouseId=&ProcessPath=&IsReactiveTransfer=ALL&IsEulerUpgraded=ALL&OuterContainerType=&PickPriority=&enabledColumns=OUTER_SCANNABLE_ID&enabledColumns=OUTER_OUTER_SCANNABLE_ID&FulfillmentServiceClass=ALL&LastExSDRange.RangeEndMillis=&IsEulerExSDMiss=ALL&FulfillmentReferenceId=
+
+2025-04-04 15:09:49 | Runtime: 0:01:27 | INFO     | src.data.areq:_make_request:469 |
+Making request for LPI...
+
+2025-04-04 15:09:49 | Runtime: 0:01:27 | INFO     | src.data.areq:_make_request:471 |
+URL: https://fclm-portal.amazon.com/ppa/inspect/process?primaryAttribute=WORK_FLOW&secondaryAttribute=PICKING_PROCESS_PATH&nodeType=FC&warehouseId=SAV7&processId=100115&maxIntradayDays=1&spanType=Intraday&startDateIntraday=2025%2F04%2F04&startHourIntraday=7&startMinuteIntraday=0&endDateIntraday=2025%2F04%2F04&endHourIntraday=18&endMinuteIntraday=0
+
+2025-04-04 15:09:49 | Runtime: 0:01:27 | INFO     | src.data.areq:_make_request:469 |
+Making request for LPI(Hist)...
+
+2025-04-04 15:09:49 | Runtime: 0:01:27 | INFO     | src.data.areq:_make_request:471 |
+URL: https://fclm-portal.amazon.com/ppa/inspect/process?primaryAttribute=WORK_FLOW&secondaryAttribute=PICKING_PROCESS_PATH&nodeType=FC&warehouseId=SAV7&processId=100115&maxIntradayDays=1&spanType=Week&startDateWeek=2025%2F03%2F28
+
+2025-04-04 15:09:49 | Runtime: 0:01:27 | INFO     | src.data.areq:_make_request:469 |
+Making request for Workforce...
+
+2025-04-04 15:09:49 | Runtime: 0:01:27 | INFO     | src.data.areq:_make_request:471 |
+URL: https://picking-console.na.picking.aft.a2z.com/api/fcs/SAV7/workforce
+
+2025-04-04 15:09:49 | Runtime: 0:01:27 | INFO     | src.data.areq:_make_request:469 |
+Making request for Process...
+
+2025-04-04 15:09:49 | Runtime: 0:01:27 | INFO     | src.data.areq:_make_request:471 |
+URL: https://picking-console.na.picking.aft.a2z.com/api/fcs/SAV7/process-paths/information
+
+2025-04-04 15:09:50 | Runtime: 0:01:28 | INFO     | src.data.areq:_ensure_valid_cookies:404 |
+Refreshing cookies with Selenium...
+
+2025-04-04 15:09:51 | Runtime: 0:01:28 | DEBUG    | selenium.webdriver.common.service:_start_process:230 |
+Started executable: `C:\Users\zavaugha\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe` in a child process with pid: 26892 using 0 to output -3
+
+2025-04-04 15:09:53 | Runtime: 0:01:30 | INFO     | src.data.processor:process_incoming_data:131 |
+Received LPI data :: Status Code: 200
+
+2025-04-04 15:09:53 | Runtime: 0:01:30 | INFO     | src.data.processor:_normalize_lpi:824 |
+Processing LPI data
+
+2025-04-04 15:09:53 | Runtime: 0:01:30 | INFO     | src.data.processor:_get_column_type_casts:1559 |
+LPI : Casting Types
+
+2025-04-04 15:09:53 | Runtime: 0:01:30 | INFO     | src.data.processor:_normalize_lpi:896 |
+LPI : Normalized data
+
+2025-04-04 15:09:53 | Runtime: 0:01:30 | DEBUG    | src.data.processor:_group_lpi:1010 |
+LPI : Grouping by process path
+
+2025-04-04 15:09:53 | Runtime: 0:01:30 | DEBUG    | src.data.processor:_group_lpi:1026 |
+LPI : Grouping by Pick Area within Process Path
+
+2025-04-04 15:09:53 | Runtime: 0:01:30 | INFO     | src.data.processor:_group_lpi:1039 |
+LPI : Grouped data
+
+2025-04-04 15:09:53 | Runtime: 0:01:31 | INFO     | src.data.processor:process_incoming_data:131 |
+Received Rodeo data :: Status Code: 200
+
+2025-04-04 15:09:53 | Runtime: 0:01:31 | INFO     | src.data.processor:_normalize_rodeo:1230 |
+Processing Rodeo data
+
+2025-04-04 15:09:56 | Runtime: 0:01:33 | INFO     | src.data.processor:process_incoming_data:131 |
+Received LPI(Hist) data :: Status Code: 200
+
+2025-04-04 15:09:56 | Runtime: 0:01:33 | INFO     | src.data.processor:_normalize_lpi_hist:1091 |
+Processing Historical LPI data
+
+2025-04-04 15:09:57 | Runtime: 0:01:34 | INFO     | src.data.processor:_get_column_type_casts:1559 |
+LPI : Casting Types
+
+2025-04-04 15:09:57 | Runtime: 0:01:34 | INFO     | src.data.processor:_normalize_lpi_hist:1151 |
+LPI Historical : Normalized Historical data
+
+2025-04-04 15:09:57 | Runtime: 0:01:34 | DEBUG    | src.data.processor:_group_lpi_hist:1172 |
+LPI : Grouping by process path
+
+2025-04-04 15:09:57 | Runtime: 0:01:34 | DEBUG    | src.data.processor:_group_lpi_hist:1188 |
+LPI : Grouping by Pick Area within Process Path
+
+2025-04-04 15:09:57 | Runtime: 0:01:34 | INFO     | src.data.processor:_group_lpi_hist:1201 |
+LPI Historical : Grouped data
+
+2025-04-04 15:09:57 | Runtime: 0:01:35 | INFO     | src.data.processor:_normalize_rodeo:1371 |
+Rodeo : Normalized data
+
+2025-04-04 15:09:57 | Runtime: 0:01:35 | DEBUG    | src.data.processor:_group_rodeo:1437 |
+Rodeo : Grouping by picks in CPT
+
+2025-04-04 15:09:57 | Runtime: 0:01:35 | DEBUG    | src.data.processor:_group_rodeo:1470 |
+Rodeo : Grouping by Process Path within CPT
+
+2025-04-04 15:09:57 | Runtime: 0:01:35 | DEBUG    | src.data.processor:_group_rodeo:1502 |
+Rodeo : Grouping by Pick Area within Process Path within CPT
+
+2025-04-04 15:09:57 | Runtime: 0:01:35 | INFO     | src.data.processor:_group_rodeo:1533 |
+Rodeo : Grouped data
+
+2025-04-04 15:09:59 | Runtime: 0:01:36 | INFO     | src.data.areq:initialize_webdriver:223 |
+
+WebDriver initialized successfully
+
+
+2025-04-04 15:10:03 | Runtime: 0:01:41 | INFO     | src.data.areq:_ensure_valid_cookies:415 |
+Cookie refresh successful
+
+2025-04-04 15:10:04 | Runtime: 0:01:41 | INFO     | src.data.processor:process_incoming_data:131 |
+Received Workforce data :: Status Code: 200
+
+2025-04-04 15:10:04 | Runtime: 0:01:41 | INFO     | src.data.processor:_get_column_renames:1640 |
+Workforce : Renaming columns
+
+2025-04-04 15:10:04 | Runtime: 0:01:41 | INFO     | src.data.processor:_normalize_workforce:644 |
+Workforce : Normalized data
+
+2025-04-04 15:10:04 | Runtime: 0:01:41 | DEBUG    | src.data.processor:_group_workforce:674 |
+Workforce : Grouping Data
+
+2025-04-04 15:10:04 | Runtime: 0:01:41 | DEBUG    | src.data.processor:_group_workforce:699 |
+Grouping by Pick Area within Process Path
+
+2025-04-04 15:10:04 | Runtime: 0:01:42 | INFO     | src.data.processor:_group_workforce:718 |
+Workforce : Grouped data
+
+2025-04-04 15:10:09 | Runtime: 0:01:46 | INFO     | src.data.processor:process_incoming_data:131 |
+Received Process data :: Status Code: 200
+
+2025-04-04 15:10:09 | Runtime: 0:01:46 | INFO     | src.data.processor:_normalize_process:804 |
+Process : Normalized data
+
+2025-04-04 15:10:09 | Runtime: 0:01:46 | INFO     | src.data.processor:process_incoming_data:184 |
+Successfully processed LPI data
+
+2025-04-04 15:10:09 | Runtime: 0:01:46 | INFO     | src.data.processor:process_incoming_data:184 |
+Successfully processed Rodeo data
+
+2025-04-04 15:10:09 | Runtime: 0:01:46 | INFO     | src.data.processor:process_incoming_data:184 |
+Successfully processed LPI(Hist) data
+
+2025-04-04 15:10:09 | Runtime: 0:01:46 | INFO     | src.data.processor:process_incoming_data:184 |
+Successfully processed Workforce data
+
+2025-04-04 15:10:09 | Runtime: 0:01:46 | INFO     | src.data.processor:process_incoming_data:184 |
+Successfully processed Process data
+
+2025-04-04 15:10:09 | Runtime: 0:01:46 | INFO     | src.data.processor:process_incoming_data:274 |
+All required data is present
+
+2025-04-04 15:10:09 | Runtime: 0:01:46 | INFO     | src.data.processor:process_incoming_data:576 |
+Completed all data level merges
+
+2025-04-04 15:10:09 | Runtime: 0:01:46 | INFO     | ui.app:on_processing_complete:168 |
+Data processing completed successfully
+
+2025-04-04 15:10:09 | Runtime: 0:01:46 | INFO     | src.config.site_build:get_site_info:100 |
+No plan data loaded, attempting to load
+
+2025-04-04 15:10:09 | Runtime: 0:01:46 | INFO     | src.config.site_build:load_recent_plan:118 |
+=== Starting load_recent_plan ===
+
+2025-04-04 15:10:09 | Runtime: 0:01:46 | INFO     | src.config.site_build:load_recent_plan:125 |
+Initial shift_start: 2025-04-04 07:00:00-04:00
+
+2025-04-04 15:10:09 | Runtime: 0:01:46 | INFO     | src.config.site_build:load_recent_plan:126 |
+shift_start type: <class 'datetime.datetime'>
+
+2025-04-04 15:10:09 | Runtime: 0:01:46 | INFO     | src.config.site_build:load_recent_plan:127 |
+shift_start tzinfo: America/New_York
+
+2025-04-04 15:10:09 | Runtime: 0:01:46 | INFO     | src.config.site_build:load_recent_plan:135 |
+Shift Start had TZ, stripped and calculated one_hour_before: 2025-04-04 06:00:00
+
+2025-04-04 15:10:09 | Runtime: 0:01:46 | INFO     | src.config.site_build:load_recent_plan:141 |
+Searching for plans between: 2025-04-04 06:00:00 and 2025-04-04 07:00:00-04:00
+
+2025-04-04 15:10:09 | Runtime: 0:01:46 | INFO     | src.config.site_build:load_recent_plan:149 |
+Looking for plans in directory: \\ant\dept-na\SAV7\Public\PickAssist\Plans\SAV7
+
+2025-04-04 15:10:09 | Runtime: 0:01:46 | INFO     | src.config.site_build:load_recent_plan:162 |
+=== Starting file search ===
+
+2025-04-04 15:10:09 | Runtime: 0:01:46 | DEBUG    | src.config.site_build:load_recent_plan:172 |
+Processing file: SAV7_20250404_1046.json
+
+2025-04-04 15:10:09 | Runtime: 0:01:46 | DEBUG    | src.config.site_build:load_recent_plan:173 |
+File modification time: 2025-04-04 10:46:45.252236
+
+2025-04-04 15:10:09 | Runtime: 0:01:46 | DEBUG    | src.config.site_build:load_recent_plan:183 |
+File matches time window: SAV7_20250404_1046.json
+
+2025-04-04 15:10:09 | Runtime: 0:01:46 | DEBUG    | src.config.site_build:load_recent_plan:172 |
+Processing file: SAV7_20250404_1410.json
+
+2025-04-04 15:10:09 | Runtime: 0:01:46 | DEBUG    | src.config.site_build:load_recent_plan:173 |
+File modification time: 2025-04-04 14:10:05.399755
+
+2025-04-04 15:10:09 | Runtime: 0:01:46 | DEBUG    | src.config.site_build:load_recent_plan:183 |
+File matches time window: SAV7_20250404_1410.json
+
+2025-04-04 15:10:09 | Runtime: 0:01:46 | INFO     | src.config.site_build:load_recent_plan:185 |
+File search complete. Total files: 2, JSON files: 2, Matching files: 2
+
+2025-04-04 15:10:09 | Runtime: 0:01:46 | INFO     | src.config.site_build:load_recent_plan:228 |
+Selected most recent file: \\ant\dept-na\SAV7\Public\PickAssist\Plans\SAV7\SAV7_20250404_1410.json
+
+2025-04-04 15:10:09 | Runtime: 0:01:47 | INFO     | src.config.site_build:load_recent_plan:232 |
+Reading plan file: \\ant\dept-na\SAV7\Public\PickAssist\Plans\SAV7\SAV7_20250404_1410.json
+
+2025-04-04 15:10:09 | Runtime: 0:01:47 | INFO     | src.config.site_build:load_recent_plan:236 |
+=== Plan Data Summary ===
+
+2025-04-04 15:10:09 | Runtime: 0:01:47 | INFO     | src.config.site_build:load_recent_plan:238 |
+Timestamp: Not found
+
+2025-04-04 15:10:09 | Runtime: 0:01:47 | INFO     | src.config.site_build:load_recent_plan:239 |
+Submitted by: Not found
+
+2025-04-04 15:10:09 | Runtime: 0:01:47 | INFO     | src.config.site_build:load_recent_plan:240 |
+Site code: Not found
+
+2025-04-04 15:10:09 | Runtime: 0:01:47 | INFO     | src.config.site_build:load_recent_plan:246 |
+=== Full Plan Data ===
+
+2025-04-04 15:10:09 | Runtime: 0:01:47 | INFO     | src.config.site_build:load_recent_plan:247 |
+Plan Data: {
+  "inputs": {
+    "target_volume": 8000,
+    "target_rate": 47.8
+  },
+  "calculated": {
+    "hours_remaining": 0.8952777777777777,
+    "remaining_volume": 1043,
+    "target_headcount": 20.92050209205021,
+    "target_hours": 167.36401673640168
+  },
+  "volume": {
+    "picked": 6957,
+    "mandatory_remaining": 0,
+    "flexible_remaining": 3145,
+    "planned": 3341.05,
+    "planned_hov": 1033,
+    "planned_non_hov": 2308.05,
+    "planned_remaining": 1049.05
+  },
+  "cpt_breakdown": {
+    "04-05 05:00": {
+      "hours_to_pick": 0.8952777777777777,
+      "plan_picks": 2308.05,
+      "mandatory": false,
+      "plan_picks_left": 16.049999999999862,
+      "PPTRANSTLH2CASE": {
+        "total_cases": 580,
+        "cases_picked": 13,
+        "cases_left": 567,
+        "avg_cph": 23.64,
+        "percent_to_pick": 0.03,
+        "calculated_cases": 17.4,
+        "target_headcount": 0.20789660608790556,
+        "calculated_cases_left": 4.399999999999999
+      },
+      "PPTRANSTPA1CASE": {
+        "total_cases": 2481,
+        "cases_picked": 1709,
+        "cases_left": 772,
+        "avg_cph": 41.12,
+        "percent_to_pick": 0.69,
+        "calculated_cases": 1711.8899999999999,
+        "target_headcount": 0.07850312261939917,
+        "calculated_cases_left": 2.8899999999998727
+      },
+      "PPTRANSTPA4CASE": {
+        "total_cases": 1113,
+        "cases_picked": 570,
+        "cases_left": 543,
+        "avg_cph": 26.32,
+        "percent_to_pick": 0.52,
+        "calculated_cases": 578.76,
+        "target_headcount": 0.3717580799855141,
+        "calculated_cases_left": 8.759999999999991
+      }
+    },
+    "HOV": {
+      "hours_to_pick": 0.8952777777777777,
+      "plan_picks": 1033,
+      "mandatory": false,
+      "plan_picks_left": 1033,
+      "PPHOVRESERVEPTE": {
+        "cases_to_pick": 3219,
+        "total_cases": 5331,
+        "cases_picked": 2186,
+        "cases_left": 3145,
+        "avg_cph": 97.55,
+        "percent_to_pick": 0,
+        "calculated_cases": 1033,
+        "target_headcount": 11.828106957409688,
+        "calculated_cases_left": 1033
+      }
+    }
+  }
+}
+
+2025-04-04 15:10:09 | Runtime: 0:01:47 | INFO     | src.config.site_build:load_recent_plan:249 |
+Successfully loaded plan data from network
+
+2025-04-04 15:10:09 | Runtime: 0:01:47 | INFO     | src.config.site_build:load_recent_plan:274 |
+Plan data successfully loaded and stored in instance
+
+2025-04-04 15:10:09 | Runtime: 0:01:47 | INFO     | src.config.site_build:load_recent_plan:275 |
+=== Completed load_recent_plan ===
+
+2025-04-04 15:10:09 | Runtime: 0:01:47 | INFO     | src.config.site_build:__init__:58 |
+SiteBuilder Initialized:
+- Site Code: SAV7
+- Shift Start: 2025-04-04 07:00:00-04:00
+
+2025-04-04 15:10:09 | Runtime: 0:01:47 | INFO     | src.config.site_build:get_site_info:95 |
+No pick areas loaded, attempting to load
+
+2025-04-04 15:10:09 | Runtime: 0:01:47 | INFO     | src.config.site_build:load_pick_areas:290 |
+=== Starting load_pick_areas ===
+
+2025-04-04 15:10:09 | Runtime: 0:01:47 | INFO     | src.config.site_build:load_pick_areas:306 |
+Loading from network path: //ant/dept-na/SAV7/Public/PickAssist/Areas\SAV7_site_info.json
+
+2025-04-04 15:10:10 | Runtime: 0:01:47 | INFO     | src.config.site_build:load_pick_areas:317 |
+Successfully loaded pick areas from network for SAV7
+
+2025-04-04 15:10:10 | Runtime: 0:01:47 | INFO     | src.config.site_build:load_pick_areas:318 |
+shape: (11, 6)
+┌──────────┬─────────────┬───────────┬────────────┬──────────┬─────────┐
+│ Name     ┆ Start Aisle ┆ End Aisle ┆ Start Slot ┆ End Slot ┆ Cluster │
+│ ---      ┆ ---         ┆ ---       ┆ ---        ┆ ---      ┆ ---     │
+│ str      ┆ str         ┆ str       ┆ str        ┆ str      ┆ str     │
+╞══════════╪═════════════╪═══════════╪════════════╪══════════╪═════════╡
+│ paRack01 ┆ 300         ┆ 306       ┆ 145        ┆ 790      ┆         │
+│ paVNA01  ┆ 101         ┆ 121       ┆ 152        ┆ 570      ┆         │
+│ paVNA02  ┆ 122         ┆ 143       ┆ 152        ┆ 570      ┆         │
+│ paVNA03  ┆ 144         ┆ 164       ┆ 152        ┆ 570      ┆         │
+│ paVNA04  ┆ 165         ┆ 185       ┆ 140        ┆ 570      ┆         │
+│ …        ┆ …           ┆ …         ┆ …          ┆ …        ┆ …       │
+│ paVNA06  ┆ 207         ┆ 227       ┆ 140        ┆ 570      ┆         │
+│ paVNA07  ┆ 228         ┆ 243       ┆ 140        ┆ 570      ┆         │
+│ paVNA08  ┆ 401         ┆ 424       ┆ 100        ┆ 602      ┆         │
+│ paVNA09  ┆ 425         ┆ 448       ┆ 100        ┆ 602      ┆         │
+│ paVNA10  ┆ 449         ┆ 472       ┆ 100        ┆ 602      ┆         │
+└──────────┴─────────────┴───────────┴────────────┴──────────┴─────────┘
+
+2025-04-04 15:10:10 | Runtime: 0:01:47 | INFO     | src.config.site_build:load_pick_areas:330 |
+Successfully saved network data to local file: C:\Users\zavaugha\Projects\Python\PickAssistv2\root\src\config\res\site_info\SAV7_site_info.json
+
+2025-04-04 15:10:10 | Runtime: 0:01:47 | INFO     | src.config.site_build:load_pick_areas:338 |
+=== Completed load_pick_areas ===
+
+2025-04-04 15:10:10 | Runtime: 0:01:47 | INFO     | src.config.site_build:get_site_info:100 |
+No plan data loaded, attempting to load
+
+2025-04-04 15:10:10 | Runtime: 0:01:47 | INFO     | src.config.site_build:load_recent_plan:118 |
+=== Starting load_recent_plan ===
+
+2025-04-04 15:10:10 | Runtime: 0:01:47 | INFO     | src.config.site_build:load_recent_plan:125 |
+Initial shift_start: 2025-04-04 07:00:00-04:00
+
+2025-04-04 15:10:10 | Runtime: 0:01:47 | INFO     | src.config.site_build:load_recent_plan:126 |
+shift_start type: <class 'datetime.datetime'>
+
+2025-04-04 15:10:10 | Runtime: 0:01:47 | INFO     | src.config.site_build:load_recent_plan:127 |
+shift_start tzinfo: America/New_York
+
+2025-04-04 15:10:10 | Runtime: 0:01:47 | INFO     | src.config.site_build:load_recent_plan:135 |
+Shift Start had TZ, stripped and calculated one_hour_before: 2025-04-04 06:00:00
+
+2025-04-04 15:10:10 | Runtime: 0:01:47 | INFO     | src.config.site_build:load_recent_plan:141 |
+Searching for plans between: 2025-04-04 06:00:00 and 2025-04-04 07:00:00-04:00
+
+2025-04-04 15:10:10 | Runtime: 0:01:47 | INFO     | src.config.site_build:load_recent_plan:149 |
+Looking for plans in directory: \\ant\dept-na\SAV7\Public\PickAssist\Plans\SAV7
+
+2025-04-04 15:10:10 | Runtime: 0:01:47 | INFO     | src.config.site_build:load_recent_plan:162 |
+=== Starting file search ===
+
+2025-04-04 15:10:10 | Runtime: 0:01:47 | DEBUG    | src.config.site_build:load_recent_plan:172 |
+Processing file: SAV7_20250404_1046.json
+
+2025-04-04 15:10:10 | Runtime: 0:01:47 | DEBUG    | src.config.site_build:load_recent_plan:173 |
+File modification time: 2025-04-04 10:46:45.252236
+
+2025-04-04 15:10:10 | Runtime: 0:01:47 | DEBUG    | src.config.site_build:load_recent_plan:183 |
+File matches time window: SAV7_20250404_1046.json
+
+2025-04-04 15:10:10 | Runtime: 0:01:47 | DEBUG    | src.config.site_build:load_recent_plan:172 |
+Processing file: SAV7_20250404_1410.json
+
+2025-04-04 15:10:10 | Runtime: 0:01:47 | DEBUG    | src.config.site_build:load_recent_plan:173 |
+File modification time: 2025-04-04 14:10:05.399755
+
+2025-04-04 15:10:10 | Runtime: 0:01:47 | DEBUG    | src.config.site_build:load_recent_plan:183 |
+File matches time window: SAV7_20250404_1410.json
+
+2025-04-04 15:10:10 | Runtime: 0:01:47 | INFO     | src.config.site_build:load_recent_plan:185 |
+File search complete. Total files: 2, JSON files: 2, Matching files: 2
+
+2025-04-04 15:10:10 | Runtime: 0:01:47 | INFO     | src.config.site_build:load_recent_plan:228 |
+Selected most recent file: \\ant\dept-na\SAV7\Public\PickAssist\Plans\SAV7\SAV7_20250404_1410.json
+
+2025-04-04 15:10:10 | Runtime: 0:01:47 | INFO     | src.config.site_build:load_recent_plan:232 |
+Reading plan file: \\ant\dept-na\SAV7\Public\PickAssist\Plans\SAV7\SAV7_20250404_1410.json
+
+2025-04-04 15:10:10 | Runtime: 0:01:47 | INFO     | src.config.site_build:load_recent_plan:236 |
+=== Plan Data Summary ===
+
+2025-04-04 15:10:10 | Runtime: 0:01:47 | INFO     | src.config.site_build:load_recent_plan:238 |
+Timestamp: Not found
+
+2025-04-04 15:10:10 | Runtime: 0:01:47 | INFO     | src.config.site_build:load_recent_plan:239 |
+Submitted by: Not found
+
+2025-04-04 15:10:10 | Runtime: 0:01:47 | INFO     | src.config.site_build:load_recent_plan:240 |
+Site code: Not found
+
+2025-04-04 15:10:10 | Runtime: 0:01:47 | INFO     | src.config.site_build:load_recent_plan:246 |
+=== Full Plan Data ===
+
+2025-04-04 15:10:10 | Runtime: 0:01:47 | INFO     | src.config.site_build:load_recent_plan:247 |
+Plan Data: {
+  "inputs": {
+    "target_volume": 8000,
+    "target_rate": 47.8
+  },
+  "calculated": {
+    "hours_remaining": 0.8952777777777777,
+    "remaining_volume": 1043,
+    "target_headcount": 20.92050209205021,
+    "target_hours": 167.36401673640168
+  },
+  "volume": {
+    "picked": 6957,
+    "mandatory_remaining": 0,
+    "flexible_remaining": 3145,
+    "planned": 3341.05,
+    "planned_hov": 1033,
+    "planned_non_hov": 2308.05,
+    "planned_remaining": 1049.05
+  },
+  "cpt_breakdown": {
+    "04-05 05:00": {
+      "hours_to_pick": 0.8952777777777777,
+      "plan_picks": 2308.05,
+      "mandatory": false,
+      "plan_picks_left": 16.049999999999862,
+      "PPTRANSTLH2CASE": {
+        "total_cases": 580,
+        "cases_picked": 13,
+        "cases_left": 567,
+        "avg_cph": 23.64,
+        "percent_to_pick": 0.03,
+        "calculated_cases": 17.4,
+        "target_headcount": 0.20789660608790556,
+        "calculated_cases_left": 4.399999999999999
+      },
+      "PPTRANSTPA1CASE": {
+        "total_cases": 2481,
+        "cases_picked": 1709,
+        "cases_left": 772,
+        "avg_cph": 41.12,
+        "percent_to_pick": 0.69,
+        "calculated_cases": 1711.8899999999999,
+        "target_headcount": 0.07850312261939917,
+        "calculated_cases_left": 2.8899999999998727
+      },
+      "PPTRANSTPA4CASE": {
+        "total_cases": 1113,
+        "cases_picked": 570,
+        "cases_left": 543,
+        "avg_cph": 26.32,
+        "percent_to_pick": 0.52,
+        "calculated_cases": 578.76,
+        "target_headcount": 0.3717580799855141,
+        "calculated_cases_left": 8.759999999999991
+      }
+    },
+    "HOV": {
+      "hours_to_pick": 0.8952777777777777,
+      "plan_picks": 1033,
+      "mandatory": false,
+      "plan_picks_left": 1033,
+      "PPHOVRESERVEPTE": {
+        "cases_to_pick": 3219,
+        "total_cases": 5331,
+        "cases_picked": 2186,
+        "cases_left": 3145,
+        "avg_cph": 97.55,
+        "percent_to_pick": 0,
+        "calculated_cases": 1033,
+        "target_headcount": 11.828106957409688,
+        "calculated_cases_left": 1033
+      }
+    }
+  }
+}
+
+2025-04-04 15:10:10 | Runtime: 0:01:47 | INFO     | src.config.site_build:load_recent_plan:249 |
+Successfully loaded plan data from network
+
+2025-04-04 15:10:10 | Runtime: 0:01:47 | INFO     | src.config.site_build:load_recent_plan:274 |
+Plan data successfully loaded and stored in instance
+
+2025-04-04 15:10:10 | Runtime: 0:01:47 | INFO     | src.config.site_build:load_recent_plan:275 |
+=== Completed load_recent_plan ===
+
+2025-04-04 15:10:10 | Runtime: 0:01:47 | INFO     | src.ui.tabs:populate_overview_ui:310 |
+Processing metric: Rate
+
+2025-04-04 15:10:10 | Runtime: 0:01:47 | INFO     | src.ui.tabs:populate_overview_ui:310 |
+Processing metric: Headcount
+
+2025-04-04 15:10:10 | Runtime: 0:01:47 | INFO     | src.ui.tabs:populate_overview_ui:310 |
+Processing metric: Labor Hrs
+
+2025-04-04 15:10:10 | Runtime: 0:01:47 | INFO     | src.ui.tabs:populate_overview_ui:357 |
+Percent for Labor Hrs: 112.92%
+
+2025-04-04 15:10:10 | Runtime: 0:01:47 | INFO     | src.ui.tabs:populate_overview_ui:358 |
+Color for Labor Hrs: red
+
+2025-04-04 15:10:10 | Runtime: 0:01:47 | INFO     | src.ui.tabs:populate_overview_ui:310 |
+Processing metric: Volume
+
+2025-04-04 15:10:10 | Runtime: 0:01:47 | INFO     | src.ui.tabs:populate_overview_ui:528 |
+Overview Populated.
+
+2025-04-04 15:10:10 | Runtime: 0:01:47 | INFO     | src.ui.tabs:gather_data:707 |
+Successfully updated planned_cases and target_hc columns
+
+2025-04-04 15:10:10 | Runtime: 0:01:47 | INFO     | src.ui.tabs:populate_details_ui:729 |
+Clearing existing widgets in the Details tab.
+
+2025-04-04 15:10:10 | Runtime: 0:01:47 | INFO     | src.ui.tabs:populate_details_ui:765 |
+Creating tab for CPT: 04-05 05:00
+
+2025-04-04 15:10:10 | Runtime: 0:01:47 | INFO     | src.ui.tabs:populate_details_ui:796 |
+Creating scrollable frame for CPT: 04-05 05:00.
+
+2025-04-04 15:10:10 | Runtime: 0:01:47 | INFO     | src.ui.tabs:populate_details_ui:809 |
+Adding headers to the scrollable frame.
+
+2025-04-04 15:10:10 | Runtime: 0:01:47 | INFO     | src.ui.tabs:populate_details_ui:765 |
+Creating tab for CPT: HOV
+
+2025-04-04 15:10:10 | Runtime: 0:01:47 | INFO     | src.ui.tabs:populate_details_ui:796 |
+Creating scrollable frame for CPT: HOV.
+
+2025-04-04 15:10:10 | Runtime: 0:01:47 | INFO     | src.ui.tabs:populate_details_ui:809 |
+Adding headers to the scrollable frame.
+
+2025-04-04 15:10:10 | Runtime: 0:01:47 | INFO     | src.ui.tabs:gather_data:1112 |
+Successfully updated planned_cases and target_hc columns
+
+2025-04-04 15:10:10 | Runtime: 0:01:47 | INFO     | src.ui.tabs:populate_paths_ui:1133 |
+Clearing existing widgets in the Paths tab.
+
+2025-04-04 15:10:10 | Runtime: 0:01:47 | INFO     | src.ui.tabs:populate_paths_ui:1173 |
+Creating tab for CPT: 04-05 05:00
+
+2025-04-04 15:10:10 | Runtime: 0:01:47 | INFO     | src.ui.tabs:populate_paths_ui:1199 |
+Creating tab for Process Path: PPTRANSTLH2CASE
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | INFO     | src.ui.tabs:populate_paths_ui:1246 |
+Path-level Palatable Data Assembled: <bound method DataFrame.head of shape: (11, 7)
+┌───────────┬───────┬─────────┬──────────┬───────────┬───────┬───────────┐
+│ Pick Area ┆ Picks ┆ Planned ┆ Total HC ┆ Target HC ┆ CPH   ┆ 7-Day CPH │
+│ ---       ┆ ---   ┆ ---     ┆ ---      ┆ ---       ┆ ---   ┆ ---       │
+│ str       ┆ u32   ┆ f64     ┆ u32      ┆ f64       ┆ f64   ┆ f64       │
+╞═══════════╪═══════╪═════════╪══════════╪═══════════╪═══════╪═══════════╡
+│ PARACK01  ┆ 62    ┆ 1.86    ┆ 0        ┆ 0.02      ┆ 0.0   ┆ 40.18     │
+│ PAVNA01   ┆ 45    ┆ 1.35    ┆ 0        ┆ 0.02      ┆ 0.0   ┆ 27.25     │
+│ PAVNA02   ┆ 48    ┆ 1.44    ┆ 0        ┆ 0.02      ┆ 0.0   ┆ 29.42     │
+│ PAVNA03   ┆ 33    ┆ -35.87  ┆ 0        ┆ -0.38     ┆ 33.63 ┆ 29.9      │
+│ PAVNA04   ┆ 39    ┆ 1.17    ┆ 0        ┆ 0.02      ┆ 0.0   ┆ 26.71     │
+│ …         ┆ …     ┆ …       ┆ …        ┆ …         ┆ …     ┆ …         │
+│ PAVNA06   ┆ 42    ┆ 1.26    ┆ 0        ┆ 0.02      ┆ 0.0   ┆ 24.92     │
+│ PAVNA07   ┆ 32    ┆ 0.96    ┆ 0        ┆ 0.02      ┆ 0.0   ┆ 19.5      │
+│ PAVNA08   ┆ 88    ┆ 2.64    ┆ 0        ┆ 0.03      ┆ 0.0   ┆ 31.53     │
+│ PAVNA09   ┆ 63    ┆ -5.87   ┆ 0        ┆ -0.23     ┆ 8.99  ┆ 28.18     │
+│ PAVNA10   ┆ 51    ┆ 1.53    ┆ 0        ┆ 0.02      ┆ 0.0   ┆ 26.77     │
+└───────────┴───────┴─────────┴──────────┴───────────┴───────┴───────────┘>
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | INFO     | src.ui.tabs:populate_paths_ui:1271 |
+Current CPH calculated: 22.77227722772277
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | INFO     | src.ui.tabs:populate_paths_ui:1285 |
+Historical CPH calculated: 28.404545454545453
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | INFO     | src.ui.tabs:populate_paths_ui:1290 |
+Calculated all metrics for 04-05 05:00 // PPTRANSTLH2CASE
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | DEBUG    | src.ui.tabs:populate_paths_ui:1291 |
+Metrics summary:
+Total Picks: 538
+Planned Picks: -28.48
+Total HC: 0
+Active HC: 0
+Target HC: -0.43
+Current CPH: 22.77227722772277
+Historical CPH: 28.404545454545453
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | INFO     | src.ui.tabs:populate_paths_ui:1359 |
+Building Table for 04-05 05:00 // PPTRANSTLH2CASE
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | INFO     | src.ui.tabs:populate_paths_ui:1395 |
+Processing Pick Area for row 0
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | INFO     | src.ui.tabs:populate_paths_ui:1401 |
+Row 0 belongs to group 0
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | INFO     | src.ui.tabs:populate_paths_ui:1437 |
+Group 0 - Weighted CPH: 40.18 (Using historical: True)
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | INFO     | src.ui.tabs:populate_paths_ui:1454 |
+Creating tooltip for group with 1 areas
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | INFO     | src.ui.tabs:populate_paths_ui:1466 |
+Adjusting group_sum from 0.02 to 1 (minimum threshold)
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | INFO     | src.ui.tabs:populate_paths_ui:1471 |
+Calculated time to exhaust: 1.54 hours
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | INFO     | src.ui.tabs:populate_paths_ui:1395 |
+Processing Pick Area for row 1
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | INFO     | src.ui.tabs:populate_paths_ui:1401 |
+Row 1 belongs to group 1
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | WARNING  | src.ui.tabs:populate_paths_ui:1441 |
+Group 1 has picks_and_cph data but total_picks is 0
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | INFO     | src.ui.tabs:populate_paths_ui:1454 |
+Creating tooltip for group with 10 areas
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | WARNING  | src.ui.tabs:populate_paths_ui:1474 |
+Unable to calculate time to exhaust - group_cph is 0 or negative
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | INFO     | src.ui.tabs:populate_paths_ui:1395 |
+Processing Pick Area for row 2
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | INFO     | src.ui.tabs:populate_paths_ui:1401 |
+Row 2 belongs to group 1
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | WARNING  | src.ui.tabs:populate_paths_ui:1441 |
+Group 1 has picks_and_cph data but total_picks is 0
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | INFO     | src.ui.tabs:populate_paths_ui:1454 |
+Creating tooltip for group with 10 areas
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | WARNING  | src.ui.tabs:populate_paths_ui:1474 |
+Unable to calculate time to exhaust - group_cph is 0 or negative
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | INFO     | src.ui.tabs:populate_paths_ui:1395 |
+Processing Pick Area for row 3
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | INFO     | src.ui.tabs:populate_paths_ui:1401 |
+Row 3 belongs to group 1
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | WARNING  | src.ui.tabs:populate_paths_ui:1441 |
+Group 1 has picks_and_cph data but total_picks is 0
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | INFO     | src.ui.tabs:populate_paths_ui:1454 |
+Creating tooltip for group with 10 areas
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | WARNING  | src.ui.tabs:populate_paths_ui:1474 |
+Unable to calculate time to exhaust - group_cph is 0 or negative
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | INFO     | src.ui.tabs:populate_paths_ui:1395 |
+Processing Pick Area for row 4
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | INFO     | src.ui.tabs:populate_paths_ui:1401 |
+Row 4 belongs to group 1
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | WARNING  | src.ui.tabs:populate_paths_ui:1441 |
+Group 1 has picks_and_cph data but total_picks is 0
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | INFO     | src.ui.tabs:populate_paths_ui:1454 |
+Creating tooltip for group with 10 areas
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | WARNING  | src.ui.tabs:populate_paths_ui:1474 |
+Unable to calculate time to exhaust - group_cph is 0 or negative
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | INFO     | src.ui.tabs:populate_paths_ui:1395 |
+Processing Pick Area for row 5
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | INFO     | src.ui.tabs:populate_paths_ui:1401 |
+Row 5 belongs to group 1
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | WARNING  | src.ui.tabs:populate_paths_ui:1441 |
+Group 1 has picks_and_cph data but total_picks is 0
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | INFO     | src.ui.tabs:populate_paths_ui:1454 |
+Creating tooltip for group with 10 areas
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | WARNING  | src.ui.tabs:populate_paths_ui:1474 |
+Unable to calculate time to exhaust - group_cph is 0 or negative
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | INFO     | src.ui.tabs:populate_paths_ui:1395 |
+Processing Pick Area for row 6
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | INFO     | src.ui.tabs:populate_paths_ui:1401 |
+Row 6 belongs to group 1
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | WARNING  | src.ui.tabs:populate_paths_ui:1441 |
+Group 1 has picks_and_cph data but total_picks is 0
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | INFO     | src.ui.tabs:populate_paths_ui:1454 |
+Creating tooltip for group with 10 areas
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | WARNING  | src.ui.tabs:populate_paths_ui:1474 |
+Unable to calculate time to exhaust - group_cph is 0 or negative
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | INFO     | src.ui.tabs:populate_paths_ui:1395 |
+Processing Pick Area for row 7
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | INFO     | src.ui.tabs:populate_paths_ui:1401 |
+Row 7 belongs to group 1
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | WARNING  | src.ui.tabs:populate_paths_ui:1441 |
+Group 1 has picks_and_cph data but total_picks is 0
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | INFO     | src.ui.tabs:populate_paths_ui:1454 |
+Creating tooltip for group with 10 areas
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | WARNING  | src.ui.tabs:populate_paths_ui:1474 |
+Unable to calculate time to exhaust - group_cph is 0 or negative
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | INFO     | src.ui.tabs:populate_paths_ui:1395 |
+Processing Pick Area for row 8
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | INFO     | src.ui.tabs:populate_paths_ui:1401 |
+Row 8 belongs to group 1
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | WARNING  | src.ui.tabs:populate_paths_ui:1441 |
+Group 1 has picks_and_cph data but total_picks is 0
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | INFO     | src.ui.tabs:populate_paths_ui:1454 |
+Creating tooltip for group with 10 areas
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | WARNING  | src.ui.tabs:populate_paths_ui:1474 |
+Unable to calculate time to exhaust - group_cph is 0 or negative
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | INFO     | src.ui.tabs:populate_paths_ui:1395 |
+Processing Pick Area for row 9
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | INFO     | src.ui.tabs:populate_paths_ui:1401 |
+Row 9 belongs to group 1
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | WARNING  | src.ui.tabs:populate_paths_ui:1441 |
+Group 1 has picks_and_cph data but total_picks is 0
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | INFO     | src.ui.tabs:populate_paths_ui:1454 |
+Creating tooltip for group with 10 areas
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | WARNING  | src.ui.tabs:populate_paths_ui:1474 |
+Unable to calculate time to exhaust - group_cph is 0 or negative
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | INFO     | src.ui.tabs:populate_paths_ui:1395 |
+Processing Pick Area for row 10
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | INFO     | src.ui.tabs:populate_paths_ui:1401 |
+Row 10 belongs to group 1
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | WARNING  | src.ui.tabs:populate_paths_ui:1441 |
+Group 1 has picks_and_cph data but total_picks is 0
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | INFO     | src.ui.tabs:populate_paths_ui:1454 |
+Creating tooltip for group with 10 areas
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | WARNING  | src.ui.tabs:populate_paths_ui:1474 |
+Unable to calculate time to exhaust - group_cph is 0 or negative
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | INFO     | src.ui.tabs:populate_paths_ui:1528 |
+Populated Table for 04-05 05:00 // PPTRANSTLH2CASE
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | INFO     | src.ui.tabs:populate_paths_ui:1551 |
+Building Key Metrics for 04-05 05:00 // PPTRANSTLH2CASE
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | WARNING  | src.ui.tabs:populate_paths_ui:1625 |
+Cannot calculate time to exhaust - insufficient data
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | INFO     | src.ui.tabs:populate_paths_ui:1679 |
+Populated Key Metrics for 04-05 05:00 // PPTRANSTLH2CASE
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | INFO     | src.ui.tabs:populate_paths_ui:1688 |
+Completed processing for 04-05 05:00 // PPTRANSTLH2CASE
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | INFO     | src.ui.tabs:populate_paths_ui:1199 |
+Creating tab for Process Path: PPTRANSTPA1CASE
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | INFO     | src.ui.tabs:populate_paths_ui:1246 |
+Path-level Palatable Data Assembled: <bound method DataFrame.head of shape: (10, 7)
+┌───────────┬───────┬─────────┬──────────┬───────────┬───────┬───────────┐
+│ Pick Area ┆ Picks ┆ Planned ┆ Total HC ┆ Target HC ┆ CPH   ┆ 7-Day CPH │
+│ ---       ┆ ---   ┆ ---     ┆ ---      ┆ ---       ┆ ---   ┆ ---       │
+│ str       ┆ u32   ┆ f64     ┆ u32      ┆ f64       ┆ f64   ┆ f64       │
+╞═══════════╪═══════╪═════════╪══════════╪═══════════╪═══════╪═══════════╡
+│ PARACK01  ┆ 185   ┆ 106.57  ┆ 0        ┆ 0.45      ┆ 82.93 ┆ 56.64     │
+│ PAVNA01   ┆ 18    ┆ -22.92  ┆ 0        ┆ -0.28     ┆ 28.93 ┆ 32.93     │
+│ PAVNA02   ┆ 1     ┆ -66.58  ┆ 0        ┆ -0.53     ┆ 44.56 ┆ 32.51     │
+│ PAVNA03   ┆ 3     ┆ -59.62  ┆ 0        ┆ -0.6      ┆ 35.04 ┆ 34.37     │
+│ PAVNA04   ┆ 1     ┆ -56.04  ┆ 0        ┆ -0.42     ┆ 47.41 ┆ 32.49     │
+│ PAVNA05   ┆ 17    ┆ -42.52  ┆ 0        ┆ -0.29     ┆ 51.02 ┆ 27.65     │
+│ PAVNA06   ┆ 18    ┆ -50.82  ┆ 0        ┆ -0.37     ┆ 49.04 ┆ 32.41     │
+│ PAVNA08   ┆ 8     ┆ -74.77  ┆ 0        ┆ -0.35     ┆ 75.07 ┆ 35.32     │
+│ PAVNA09   ┆ 17    ┆ -45.62  ┆ 0        ┆ -0.47     ┆ 34.58 ┆ 32.95     │
+│ PAVNA10   ┆ 29    ┆ -16.26  ┆ 1        ┆ -0.28     ┆ 20.67 ┆ 31.54     │
+└───────────┴───────┴─────────┴──────────┴───────────┴───────┴───────────┘>
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | INFO     | src.ui.tabs:populate_paths_ui:1271 |
+Current CPH calculated: 41.75157690441533
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | INFO     | src.ui.tabs:populate_paths_ui:1285 |
+Historical CPH calculated: 34.881
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | INFO     | src.ui.tabs:populate_paths_ui:1290 |
+Calculated all metrics for 04-05 05:00 // PPTRANSTPA1CASE
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | DEBUG    | src.ui.tabs:populate_paths_ui:1291 |
+Metrics summary:
+Total Picks: 538
+Planned Picks: -162.29
+Total HC: 1
+Active HC: 0
+Target HC: -1.29
+Current CPH: 41.75157690441533
+Historical CPH: 34.881
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | INFO     | src.ui.tabs:populate_paths_ui:1359 |
+Building Table for 04-05 05:00 // PPTRANSTPA1CASE
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | INFO     | src.ui.tabs:populate_paths_ui:1395 |
+Processing Pick Area for row 0
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | INFO     | src.ui.tabs:populate_paths_ui:1401 |
+Row 0 belongs to group 0
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | INFO     | src.ui.tabs:populate_paths_ui:1437 |
+Group 0 - Weighted CPH: 82.93 (Using historical: False)
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | INFO     | src.ui.tabs:populate_paths_ui:1454 |
+Creating tooltip for group with 1 areas
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | INFO     | src.ui.tabs:populate_paths_ui:1466 |
+Adjusting group_sum from 0.45 to 1 (minimum threshold)
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | INFO     | src.ui.tabs:populate_paths_ui:1471 |
+Calculated time to exhaust: 2.23 hours
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | INFO     | src.ui.tabs:populate_paths_ui:1395 |
+Processing Pick Area for row 1
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | INFO     | src.ui.tabs:populate_paths_ui:1401 |
+Row 1 belongs to group 1
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | WARNING  | src.ui.tabs:populate_paths_ui:1441 |
+Group 1 has picks_and_cph data but total_picks is 0
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | INFO     | src.ui.tabs:populate_paths_ui:1454 |
+Creating tooltip for group with 1 areas
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | WARNING  | src.ui.tabs:populate_paths_ui:1474 |
+Unable to calculate time to exhaust - group_cph is 0 or negative
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | INFO     | src.ui.tabs:populate_paths_ui:1395 |
+Processing Pick Area for row 2
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | INFO     | src.ui.tabs:populate_paths_ui:1401 |
+Row 2 belongs to group 2
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | WARNING  | src.ui.tabs:populate_paths_ui:1441 |
+Group 2 has picks_and_cph data but total_picks is 0
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | INFO     | src.ui.tabs:populate_paths_ui:1454 |
+Creating tooltip for group with 2 areas
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | WARNING  | src.ui.tabs:populate_paths_ui:1474 |
+Unable to calculate time to exhaust - group_cph is 0 or negative
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | INFO     | src.ui.tabs:populate_paths_ui:1395 |
+Processing Pick Area for row 3
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | INFO     | src.ui.tabs:populate_paths_ui:1401 |
+Row 3 belongs to group 2
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | WARNING  | src.ui.tabs:populate_paths_ui:1441 |
+Group 2 has picks_and_cph data but total_picks is 0
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | INFO     | src.ui.tabs:populate_paths_ui:1454 |
+Creating tooltip for group with 2 areas
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | WARNING  | src.ui.tabs:populate_paths_ui:1474 |
+Unable to calculate time to exhaust - group_cph is 0 or negative
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | INFO     | src.ui.tabs:populate_paths_ui:1395 |
+Processing Pick Area for row 4
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | INFO     | src.ui.tabs:populate_paths_ui:1401 |
+Row 4 belongs to group 3
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | WARNING  | src.ui.tabs:populate_paths_ui:1441 |
+Group 3 has picks_and_cph data but total_picks is 0
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | INFO     | src.ui.tabs:populate_paths_ui:1454 |
+Creating tooltip for group with 1 areas
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | WARNING  | src.ui.tabs:populate_paths_ui:1474 |
+Unable to calculate time to exhaust - group_cph is 0 or negative
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | INFO     | src.ui.tabs:populate_paths_ui:1395 |
+Processing Pick Area for row 5
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | INFO     | src.ui.tabs:populate_paths_ui:1401 |
+Row 5 belongs to group 4
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | WARNING  | src.ui.tabs:populate_paths_ui:1441 |
+Group 4 has picks_and_cph data but total_picks is 0
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | INFO     | src.ui.tabs:populate_paths_ui:1454 |
+Creating tooltip for group with 1 areas
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | WARNING  | src.ui.tabs:populate_paths_ui:1474 |
+Unable to calculate time to exhaust - group_cph is 0 or negative
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | INFO     | src.ui.tabs:populate_paths_ui:1395 |
+Processing Pick Area for row 6
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | INFO     | src.ui.tabs:populate_paths_ui:1401 |
+Row 6 belongs to group 5
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | WARNING  | src.ui.tabs:populate_paths_ui:1441 |
+Group 5 has picks_and_cph data but total_picks is 0
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | INFO     | src.ui.tabs:populate_paths_ui:1454 |
+Creating tooltip for group with 1 areas
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | WARNING  | src.ui.tabs:populate_paths_ui:1474 |
+Unable to calculate time to exhaust - group_cph is 0 or negative
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | INFO     | src.ui.tabs:populate_paths_ui:1395 |
+Processing Pick Area for row 7
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | INFO     | src.ui.tabs:populate_paths_ui:1401 |
+Row 7 belongs to group 6
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | WARNING  | src.ui.tabs:populate_paths_ui:1441 |
+Group 6 has picks_and_cph data but total_picks is 0
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | INFO     | src.ui.tabs:populate_paths_ui:1454 |
+Creating tooltip for group with 1 areas
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | WARNING  | src.ui.tabs:populate_paths_ui:1474 |
+Unable to calculate time to exhaust - group_cph is 0 or negative
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | INFO     | src.ui.tabs:populate_paths_ui:1395 |
+Processing Pick Area for row 8
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | INFO     | src.ui.tabs:populate_paths_ui:1401 |
+Row 8 belongs to group 7
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | WARNING  | src.ui.tabs:populate_paths_ui:1441 |
+Group 7 has picks_and_cph data but total_picks is 0
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | INFO     | src.ui.tabs:populate_paths_ui:1454 |
+Creating tooltip for group with 1 areas
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | WARNING  | src.ui.tabs:populate_paths_ui:1474 |
+Unable to calculate time to exhaust - group_cph is 0 or negative
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | INFO     | src.ui.tabs:populate_paths_ui:1395 |
+Processing Pick Area for row 9
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | INFO     | src.ui.tabs:populate_paths_ui:1401 |
+Row 9 belongs to group 8
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | WARNING  | src.ui.tabs:populate_paths_ui:1441 |
+Group 8 has picks_and_cph data but total_picks is 0
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | INFO     | src.ui.tabs:populate_paths_ui:1454 |
+Creating tooltip for group with 1 areas
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | WARNING  | src.ui.tabs:populate_paths_ui:1474 |
+Unable to calculate time to exhaust - group_cph is 0 or negative
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | INFO     | src.ui.tabs:populate_paths_ui:1528 |
+Populated Table for 04-05 05:00 // PPTRANSTPA1CASE
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | INFO     | src.ui.tabs:populate_paths_ui:1551 |
+Building Key Metrics for 04-05 05:00 // PPTRANSTPA1CASE
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | INFO     | src.ui.tabs:populate_paths_ui:1620 |
+Final time to exhaust calculated: -3.89 hours
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | INFO     | src.ui.tabs:populate_paths_ui:1679 |
+Populated Key Metrics for 04-05 05:00 // PPTRANSTPA1CASE
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | INFO     | src.ui.tabs:populate_paths_ui:1688 |
+Completed processing for 04-05 05:00 // PPTRANSTPA1CASE
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | INFO     | src.ui.tabs:populate_paths_ui:1199 |
+Creating tab for Process Path: PPTRANSTPA4CASE
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | INFO     | src.ui.tabs:populate_paths_ui:1246 |
+Path-level Palatable Data Assembled: <bound method DataFrame.head of shape: (10, 7)
+┌───────────┬───────┬─────────┬──────────┬───────────┬───────┬───────────┐
+│ Pick Area ┆ Picks ┆ Planned ┆ Total HC ┆ Target HC ┆ CPH   ┆ 7-Day CPH │
+│ ---       ┆ ---   ┆ ---     ┆ ---      ┆ ---       ┆ ---   ┆ ---       │
+│ str       ┆ u32   ┆ f64     ┆ u32      ┆ f64       ┆ f64   ┆ f64       │
+╞═══════════╪═══════╪═════════╪══════════╪═══════════╪═══════╪═══════════╡
+│ PARACK01  ┆ 13    ┆ -41.24  ┆ 1        ┆ -0.44     ┆ 32.89 ┆ 41.66     │
+│ PAVNA01   ┆ 19    ┆ -17.48  ┆ 0        ┆ -0.17     ┆ 37.01 ┆ 31.12     │
+│ PAVNA02   ┆ 101   ┆ 39.08   ┆ 0        ┆ 0.58      ┆ 23.93 ┆ 26.47     │
+│ PAVNA03   ┆ 58    ┆ -7.76   ┆ 0        ┆ -0.1      ┆ 26.69 ┆ 31.05     │
+│ PAVNA04   ┆ 83    ┆ 39.8    ┆ 0        ┆ 1.6       ┆ 8.75  ┆ 27.49     │
+│ PAVNA05   ┆ 60    ┆ 29.76   ┆ 0        ┆ 1.61      ┆ 6.52  ┆ 26.48     │
+│ PAVNA06   ┆ 57    ┆ 29.64   ┆ 0        ┆ 0.36      ┆ 0.0   ┆ 28.76     │
+│ PAVNA07   ┆ 38    ┆ 19.76   ┆ 0        ┆ 0.29      ┆ 0.0   ┆ 23.74     │
+│ PAVNA08   ┆ 7     ┆ -61.16  ┆ 0        ┆ -0.83     ┆ 26.06 ┆ 28.97     │
+│ PAVNA10   ┆ 5     ┆ -61.24  ┆ 1        ┆ -0.6      ┆ 36.04 ┆ 28.87     │
+└───────────┴───────┴─────────┴──────────┴───────────┴───────┴───────────┘>
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | INFO     | src.ui.tabs:populate_paths_ui:1271 |
+Current CPH calculated: 28.768577494692146
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | INFO     | src.ui.tabs:populate_paths_ui:1285 |
+Historical CPH calculated: 29.461000000000002
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | INFO     | src.ui.tabs:populate_paths_ui:1290 |
+Calculated all metrics for 04-05 05:00 // PPTRANSTPA4CASE
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | DEBUG    | src.ui.tabs:populate_paths_ui:1291 |
+Metrics summary:
+Total Picks: 444
+Planned Picks: -29.28
+Total HC: 2
+Active HC: 1
+Target HC: 2.32
+Current CPH: 28.768577494692146
+Historical CPH: 29.461000000000002
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | INFO     | src.ui.tabs:populate_paths_ui:1359 |
+Building Table for 04-05 05:00 // PPTRANSTPA4CASE
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | INFO     | src.ui.tabs:populate_paths_ui:1395 |
+Processing Pick Area for row 0
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | INFO     | src.ui.tabs:populate_paths_ui:1401 |
+Row 0 belongs to group 0
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | WARNING  | src.ui.tabs:populate_paths_ui:1441 |
+Group 0 has picks_and_cph data but total_picks is 0
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | INFO     | src.ui.tabs:populate_paths_ui:1454 |
+Creating tooltip for group with 1 areas
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | WARNING  | src.ui.tabs:populate_paths_ui:1474 |
+Unable to calculate time to exhaust - group_cph is 0 or negative
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | INFO     | src.ui.tabs:populate_paths_ui:1395 |
+Processing Pick Area for row 1
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | INFO     | src.ui.tabs:populate_paths_ui:1401 |
+Row 1 belongs to group 1
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | INFO     | src.ui.tabs:populate_paths_ui:1437 |
+Group 1 - Weighted CPH: 5.86 (Using historical: False)
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | INFO     | src.ui.tabs:populate_paths_ui:1454 |
+Creating tooltip for group with 3 areas
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | INFO     | src.ui.tabs:populate_paths_ui:1466 |
+Adjusting group_sum from 0.30999999999999994 to 1 (minimum threshold)
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | INFO     | src.ui.tabs:populate_paths_ui:1471 |
+Calculated time to exhaust: 30.36 hours
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | INFO     | src.ui.tabs:populate_paths_ui:1395 |
+Processing Pick Area for row 2
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | INFO     | src.ui.tabs:populate_paths_ui:1401 |
+Row 2 belongs to group 1
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | INFO     | src.ui.tabs:populate_paths_ui:1437 |
+Group 1 - Weighted CPH: 5.86 (Using historical: False)
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | INFO     | src.ui.tabs:populate_paths_ui:1454 |
+Creating tooltip for group with 3 areas
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | INFO     | src.ui.tabs:populate_paths_ui:1466 |
+Adjusting group_sum from 0.30999999999999994 to 1 (minimum threshold)
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | INFO     | src.ui.tabs:populate_paths_ui:1471 |
+Calculated time to exhaust: 30.36 hours
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | INFO     | src.ui.tabs:populate_paths_ui:1395 |
+Processing Pick Area for row 3
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | INFO     | src.ui.tabs:populate_paths_ui:1401 |
+Row 3 belongs to group 1
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | INFO     | src.ui.tabs:populate_paths_ui:1437 |
+Group 1 - Weighted CPH: 5.86 (Using historical: False)
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | INFO     | src.ui.tabs:populate_paths_ui:1454 |
+Creating tooltip for group with 3 areas
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | INFO     | src.ui.tabs:populate_paths_ui:1466 |
+Adjusting group_sum from 0.30999999999999994 to 1 (minimum threshold)
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | INFO     | src.ui.tabs:populate_paths_ui:1471 |
+Calculated time to exhaust: 30.36 hours
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | INFO     | src.ui.tabs:populate_paths_ui:1395 |
+Processing Pick Area for row 4
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | INFO     | src.ui.tabs:populate_paths_ui:1401 |
+Row 4 belongs to group 2
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | INFO     | src.ui.tabs:populate_paths_ui:1437 |
+Group 2 - Weighted CPH: 8.75 (Using historical: False)
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | INFO     | src.ui.tabs:populate_paths_ui:1454 |
+Creating tooltip for group with 1 areas
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | INFO     | src.ui.tabs:populate_paths_ui:1471 |
+Calculated time to exhaust: 5.93 hours
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | INFO     | src.ui.tabs:populate_paths_ui:1395 |
+Processing Pick Area for row 5
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | INFO     | src.ui.tabs:populate_paths_ui:1401 |
+Row 5 belongs to group 3
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | INFO     | src.ui.tabs:populate_paths_ui:1437 |
+Group 3 - Weighted CPH: 6.52 (Using historical: False)
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | INFO     | src.ui.tabs:populate_paths_ui:1454 |
+Creating tooltip for group with 1 areas
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | INFO     | src.ui.tabs:populate_paths_ui:1471 |
+Calculated time to exhaust: 5.72 hours
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | INFO     | src.ui.tabs:populate_paths_ui:1395 |
+Processing Pick Area for row 6
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | INFO     | src.ui.tabs:populate_paths_ui:1401 |
+Row 6 belongs to group 4
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | WARNING  | src.ui.tabs:populate_paths_ui:1441 |
+Group 4 has picks_and_cph data but total_picks is 0
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | INFO     | src.ui.tabs:populate_paths_ui:1454 |
+Creating tooltip for group with 3 areas
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | WARNING  | src.ui.tabs:populate_paths_ui:1474 |
+Unable to calculate time to exhaust - group_cph is 0 or negative
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | INFO     | src.ui.tabs:populate_paths_ui:1395 |
+Processing Pick Area for row 7
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | INFO     | src.ui.tabs:populate_paths_ui:1401 |
+Row 7 belongs to group 4
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | WARNING  | src.ui.tabs:populate_paths_ui:1441 |
+Group 4 has picks_and_cph data but total_picks is 0
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | INFO     | src.ui.tabs:populate_paths_ui:1454 |
+Creating tooltip for group with 3 areas
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | WARNING  | src.ui.tabs:populate_paths_ui:1474 |
+Unable to calculate time to exhaust - group_cph is 0 or negative
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | INFO     | src.ui.tabs:populate_paths_ui:1395 |
+Processing Pick Area for row 8
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | INFO     | src.ui.tabs:populate_paths_ui:1401 |
+Row 8 belongs to group 4
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | WARNING  | src.ui.tabs:populate_paths_ui:1441 |
+Group 4 has picks_and_cph data but total_picks is 0
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | INFO     | src.ui.tabs:populate_paths_ui:1454 |
+Creating tooltip for group with 3 areas
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | WARNING  | src.ui.tabs:populate_paths_ui:1474 |
+Unable to calculate time to exhaust - group_cph is 0 or negative
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | INFO     | src.ui.tabs:populate_paths_ui:1395 |
+Processing Pick Area for row 9
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | INFO     | src.ui.tabs:populate_paths_ui:1401 |
+Row 9 belongs to group 5
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | WARNING  | src.ui.tabs:populate_paths_ui:1441 |
+Group 5 has picks_and_cph data but total_picks is 0
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | INFO     | src.ui.tabs:populate_paths_ui:1454 |
+Creating tooltip for group with 1 areas
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | WARNING  | src.ui.tabs:populate_paths_ui:1474 |
+Unable to calculate time to exhaust - group_cph is 0 or negative
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | INFO     | src.ui.tabs:populate_paths_ui:1528 |
+Populated Table for 04-05 05:00 // PPTRANSTPA4CASE
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | INFO     | src.ui.tabs:populate_paths_ui:1551 |
+Building Key Metrics for 04-05 05:00 // PPTRANSTPA4CASE
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | INFO     | src.ui.tabs:populate_paths_ui:1620 |
+Final time to exhaust calculated: -0.51 hours
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | INFO     | src.ui.tabs:populate_paths_ui:1679 |
+Populated Key Metrics for 04-05 05:00 // PPTRANSTPA4CASE
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | INFO     | src.ui.tabs:populate_paths_ui:1688 |
+Completed processing for 04-05 05:00 // PPTRANSTPA4CASE
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | INFO     | src.ui.tabs:populate_paths_ui:1173 |
+Creating tab for CPT: HOV
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | INFO     | src.ui.tabs:populate_paths_ui:1199 |
+Creating tab for Process Path: PPHOVRESERVEPTE
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | INFO     | src.ui.tabs:populate_paths_ui:1246 |
+Path-level Palatable Data Assembled: <bound method DataFrame.head of shape: (11, 7)
+┌───────────┬───────┬─────────┬──────────┬───────────┬────────┬───────────┐
+│ Pick Area ┆ Picks ┆ Planned ┆ Total HC ┆ Target HC ┆ CPH    ┆ 7-Day CPH │
+│ ---       ┆ ---   ┆ ---     ┆ ---      ┆ ---       ┆ ---    ┆ ---       │
+│ str       ┆ u32   ┆ f64     ┆ u32      ┆ f64       ┆ f64    ┆ f64       │
+╞═══════════╪═══════╪═════════╪══════════╪═══════════╪════════╪═══════════╡
+│ PARACK01  ┆ 235   ┆ 0.0     ┆ 0        ┆ 0.0       ┆ 0.0    ┆ 98.05     │
+│ PAVNA01   ┆ 482   ┆ -455.0  ┆ 0        ┆ -1.24     ┆ 128.9  ┆ 127.02    │
+│ PAVNA02   ┆ 964   ┆ -129.0  ┆ 0        ┆ -0.64     ┆ 71.27  ┆ 109.68    │
+│ PAVNA03   ┆ 920   ┆ -907.0  ┆ 2        ┆ -3.77     ┆ 84.77  ┆ 107.38    │
+│ PAVNA04   ┆ 543   ┆ -484.0  ┆ 0        ┆ -1.39     ┆ 122.53 ┆ 101.69    │
+│ …         ┆ …     ┆ …       ┆ …        ┆ …         ┆ …      ┆ …         │
+│ PAVNA06   ┆ 661   ┆ -82.0   ┆ 2        ┆ -0.43     ┆ 67.21  ┆ 107.35    │
+│ PAVNA07   ┆ 546   ┆ -72.0   ┆ 0        ┆ -0.31     ┆ 80.9   ┆ 107.46    │
+│ PAVNA08   ┆ 960   ┆ -324.0  ┆ 1        ┆ -1.52     ┆ 75.17  ┆ 95.47     │
+│ PAVNA09   ┆ 889   ┆ 0.0     ┆ 0        ┆ 0.0       ┆ 0.0    ┆ 107.93    │
+│ PAVNA10   ┆ 631   ┆ -312.0  ┆ 0        ┆ -0.85     ┆ 128.93 ┆ 91.18     │
+└───────────┴───────┴─────────┴──────────┴───────────┴────────┴───────────┘>
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | INFO     | src.ui.tabs:populate_paths_ui:1271 |
+Current CPH calculated: 95.44062606328686
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | INFO     | src.ui.tabs:populate_paths_ui:1285 |
+Historical CPH calculated: 106.22272727272728
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | INFO     | src.ui.tabs:populate_paths_ui:1290 |
+Calculated all metrics for HOV // PPHOVRESERVEPTE
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | DEBUG    | src.ui.tabs:populate_paths_ui:1291 |
+Metrics summary:
+Total Picks: 7485
+Planned Picks: -2805.00
+Total HC: 6
+Active HC: 0
+Target HC: -10.35
+Current CPH: 95.44062606328686
+Historical CPH: 106.22272727272728
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | INFO     | src.ui.tabs:populate_paths_ui:1359 |
+Building Table for HOV // PPHOVRESERVEPTE
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | INFO     | src.ui.tabs:populate_paths_ui:1528 |
+Populated Table for HOV // PPHOVRESERVEPTE
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | INFO     | src.ui.tabs:populate_paths_ui:1551 |
+Building Key Metrics for HOV // PPHOVRESERVEPTE
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | INFO     | src.ui.tabs:populate_paths_ui:1620 |
+Final time to exhaust calculated: -4.90 hours
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | INFO     | src.ui.tabs:populate_paths_ui:1679 |
+Populated Key Metrics for HOV // PPHOVRESERVEPTE
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | INFO     | src.ui.tabs:populate_paths_ui:1688 |
+Completed processing for HOV // PPHOVRESERVEPTE
+-04-04 15:10:10 | Runtime: 0:01:48 | INFO     | src.ui.tabs:populate_paths_ui:1620 |
+Final time to exhaust calculated: -4.90 hours
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | INFO     | src.ui.tabs:populate_paths_ui:1679 |
+Populated Key Metrics for HOV // PPHOVRESERVEPTE
+
+2025-04-04 15:10:10 | Runtime: 0:01:48 | INFO     | src.ui.tabs:populate_paths_ui:1688 |
+Completed processing for HOV // PPHOVRESERVEPTE

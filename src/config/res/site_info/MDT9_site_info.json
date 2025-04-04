@@ -1,0 +1,279 @@
+{
+    "site_code": "MDT9",
+    "timezone": "America/New_York",
+    "pick_areas": {
+        "paRack01": {
+            "Start Aisle": "401",
+            "End Aisle": "405",
+            "Start Slot": "160",
+            "End Slot": "505",
+            "Cluster": ""
+        },
+        "paRack02": {
+            "Start Aisle": "406",
+            "End Aisle": "410",
+            "Start Slot": "160",
+            "End Slot": "505",
+            "Cluster": ""
+        },
+        "paRack03": {
+            "Start Aisle": "411",
+            "End Aisle": "415",
+            "Start Slot": "160",
+            "End Slot": "505",
+            "Cluster": ""
+        },
+        "paRack04": {
+            "Start Aisle": "416",
+            "End Aisle": "420",
+            "Start Slot": "160",
+            "End Slot": "505",
+            "Cluster": ""
+        },
+        "paVNA01": {
+            "Start Aisle": "101",
+            "End Aisle": "110",
+            "Start Slot": "120",
+            "End Slot": "622",
+            "Cluster": ""
+        },
+        "paVNA02": {
+            "Start Aisle": "111",
+            "End Aisle": "120",
+            "Start Slot": "120",
+            "End Slot": "622",
+            "Cluster": ""
+        },
+        "paVNA03": {
+            "Start Aisle": "121",
+            "End Aisle": "130",
+            "Start Slot": "120",
+            "End Slot": "622",
+            "Cluster": ""
+        },
+        "paVNA04": {
+            "Start Aisle": "131",
+            "End Aisle": "140",
+            "Start Slot": "120",
+            "End Slot": "622",
+            "Cluster": ""
+        },
+        "paVNA05": {
+            "Start Aisle": "141",
+            "End Aisle": "150",
+            "Start Slot": "120",
+            "End Slot": "622",
+            "Cluster": ""
+        },
+        "paVNA06": {
+            "Start Aisle": "151",
+            "End Aisle": "160",
+            "Start Slot": "120",
+            "End Slot": "622",
+            "Cluster": ""
+        },
+        "paVNA07": {
+            "Start Aisle": "161",
+            "End Aisle": "170",
+            "Start Slot": "120",
+            "End Slot": "622",
+            "Cluster": ""
+        },
+        "paVNA08": {
+            "Start Aisle": "171",
+            "End Aisle": "180",
+            "Start Slot": "120",
+            "End Slot": "622",
+            "Cluster": ""
+        },
+        "paVNA09": {
+            "Start Aisle": "181",
+            "End Aisle": "190",
+            "Start Slot": "120",
+            "End Slot": "622",
+            "Cluster": ""
+        },
+        "paVNA10": {
+            "Start Aisle": "191",
+            "End Aisle": "200",
+            "Start Slot": "120",
+            "End Slot": "482",
+            "Cluster": ""
+        },
+        "paVNA11": {
+            "Start Aisle": "201",
+            "End Aisle": "206",
+            "Start Slot": "120",
+            "End Slot": "482",
+            "Cluster": ""
+        },
+        "paVNA12": {
+            "Start Aisle": "211",
+            "End Aisle": "220",
+            "Start Slot": "160",
+            "End Slot": "492",
+            "Cluster": ""
+        },
+        "paVNA13": {
+            "Start Aisle": "221",
+            "End Aisle": "230",
+            "Start Slot": "160",
+            "End Slot": "492",
+            "Cluster": ""
+        },
+        "paVNA14": {
+            "Start Aisle": "231",
+            "End Aisle": "240",
+            "Start Slot": "160",
+            "End Slot": "492",
+            "Cluster": ""
+        },
+        "paVNA15": {
+            "Start Aisle": "241",
+            "End Aisle": "250",
+            "Start Slot": "160",
+            "End Slot": "492",
+            "Cluster": ""
+        },
+        "paVNA16": {
+            "Start Aisle": "251",
+            "End Aisle": "260",
+            "Start Slot": "160",
+            "End Slot": "492",
+            "Cluster": ""
+        },
+        "paVNA17": {
+            "Start Aisle": "261",
+            "End Aisle": "270",
+            "Start Slot": "160",
+            "End Slot": "492",
+            "Cluster": ""
+        },
+        "paVNA18": {
+            "Start Aisle": "271",
+            "End Aisle": "280",
+            "Start Slot": "160",
+            "End Slot": "492",
+            "Cluster": ""
+        },
+        "paVNA19": {
+            "Start Aisle": "281",
+            "End Aisle": "290",
+            "Start Slot": "160",
+            "End Slot": "492",
+            "Cluster": ""
+        },
+        "paVNA20": {
+            "Start Aisle": "291",
+            "End Aisle": "300",
+            "Start Slot": "160",
+            "End Slot": "492",
+            "Cluster": ""
+        },
+        "paVNA21": {
+            "Start Aisle": "301",
+            "End Aisle": "310",
+            "Start Slot": "160",
+            "End Slot": "492",
+            "Cluster": ""
+        },
+        "paVNA22": {
+            "Start Aisle": "311",
+            "End Aisle": "320",
+            "Start Slot": "160",
+            "End Slot": "492",
+            "Cluster": ""
+        },
+        "paVNA23": {
+            "Start Aisle": "321",
+            "End Aisle": "324",
+            "Start Slot": "160",
+            "End Slot": "492",
+            "Cluster": ""
+        },
+        "paVNA24": {
+            "Start Aisle": "501",
+            "End Aisle": "510",
+            "Start Slot": "100",
+            "End Slot": "492",
+            "Cluster": ""
+        },
+        "paVNA25": {
+            "Start Aisle": "511",
+            "End Aisle": "520",
+            "Start Slot": "100",
+            "End Slot": "492",
+            "Cluster": ""
+        },
+        "paVNA26": {
+            "Start Aisle": "521",
+            "End Aisle": "530",
+            "Start Slot": "100",
+            "End Slot": "492",
+            "Cluster": ""
+        },
+        "paVNA27": {
+            "Start Aisle": "531",
+            "End Aisle": "540",
+            "Start Slot": "100",
+            "End Slot": "622",
+            "Cluster": ""
+        },
+        "paVNA28": {
+            "Start Aisle": "541",
+            "End Aisle": "550",
+            "Start Slot": "100",
+            "End Slot": "622",
+            "Cluster": ""
+        },
+        "paVNA29": {
+            "Start Aisle": "551",
+            "End Aisle": "560",
+            "Start Slot": "100",
+            "End Slot": "622",
+            "Cluster": ""
+        },
+        "paVNA30": {
+            "Start Aisle": "561",
+            "End Aisle": "570",
+            "Start Slot": "100",
+            "End Slot": "622",
+            "Cluster": ""
+        },
+        "paVNA31": {
+            "Start Aisle": "571",
+            "End Aisle": "580",
+            "Start Slot": "100",
+            "End Slot": "622",
+            "Cluster": ""
+        },
+        "paVNA32": {
+            "Start Aisle": "581",
+            "End Aisle": "590",
+            "Start Slot": "100",
+            "End Slot": "622",
+            "Cluster": ""
+        },
+        "paVNA33": {
+            "Start Aisle": "591",
+            "End Aisle": "600",
+            "Start Slot": "100",
+            "End Slot": "622",
+            "Cluster": ""
+        },
+        "paVNA34": {
+            "Start Aisle": "601",
+            "End Aisle": "610",
+            "Start Slot": "100",
+            "End Slot": "622",
+            "Cluster": ""
+        },
+        "paVNA35": {
+            "Start Aisle": "611",
+            "End Aisle": "614",
+            "Start Slot": "100",
+            "End Slot": "622",
+            "Cluster": ""
+        }
+    }
+}

@@ -1,0 +1,174 @@
+{
+    "site_code": "ATL7",
+    "timezone": "America/New_York",
+    "pick_areas": {
+        "Zone1": {
+            "Start Aisle": "93",
+            "End Aisle": "99",
+            "Start Slot": "60",
+            "End Slot": "385",
+            "Cluster": ""
+        },
+        "Zone7": {
+            "Start Aisle": "100",
+            "End Aisle": "115",
+            "Start Slot": 0,
+            "End Slot": "595",
+            "Cluster": ""
+        },
+        "paAshley200-212": {
+            "Start Aisle": "200",
+            "End Aisle": "212",
+            "Start Slot": "300",
+            "End Slot": "565",
+            "Cluster": ""
+        },
+        "paAshley213-223": {
+            "Start Aisle": "213",
+            "End Aisle": "223",
+            "Start Slot": "300",
+            "End Slot": "565",
+            "Cluster": ""
+        },
+        "paAshley224-237": {
+            "Start Aisle": "224",
+            "End Aisle": "231",
+            "Start Slot": "300",
+            "End Slot": "565",
+            "Cluster": ""
+        },
+        "paTest": {
+            "Start Aisle": "400",
+            "End Aisle": "900",
+            "Start Slot": "100",
+            "End Slot": "104",
+            "Cluster": ""
+        },
+        "paZone10_High": {
+            "Start Aisle": "234",
+            "End Aisle": "245",
+            "Start Slot": "400",
+            "End Slot": "582",
+            "Cluster": ""
+        },
+        "paZone10_Low": {
+            "Start Aisle": "234",
+            "End Aisle": "245",
+            "Start Slot": "100",
+            "End Slot": "350",
+            "Cluster": ""
+        },
+        "paZone2_High": {
+            "Start Aisle": "113",
+            "End Aisle": "127",
+            "Start Slot": "401",
+            "End Slot": "600",
+            "Cluster": ""
+        },
+        "paZone2_Low": {
+            "Start Aisle": "113",
+            "End Aisle": "127",
+            "Start Slot": "133",
+            "End Slot": "343",
+            "Cluster": ""
+        },
+        "paZone3_High": {
+            "Start Aisle": "128",
+            "End Aisle": "145",
+            "Start Slot": "401",
+            "End Slot": "600",
+            "Cluster": ""
+        },
+        "paZone3_Low": {
+            "Start Aisle": "128",
+            "End Aisle": "143",
+            "Start Slot": "133",
+            "End Slot": "343",
+            "Cluster": ""
+        },
+        "paZone4_High": {
+            "Start Aisle": "150",
+            "End Aisle": "163",
+            "Start Slot": "400",
+            "End Slot": "600",
+            "Cluster": ""
+        },
+        "paZone4_Low": {
+            "Start Aisle": "150",
+            "End Aisle": "163",
+            "Start Slot": "132",
+            "End Slot": "342",
+            "Cluster": ""
+        },
+        "paZone5_High": {
+            "Start Aisle": "166",
+            "End Aisle": "175",
+            "Start Slot": "400",
+            "End Slot": "600",
+            "Cluster": ""
+        },
+        "paZone5_Low": {
+            "Start Aisle": "166",
+            "End Aisle": "175",
+            "Start Slot": "100",
+            "End Slot": "342",
+            "Cluster": ""
+        },
+        "paZone6_High": {
+            "Start Aisle": "176",
+            "End Aisle": "189",
+            "Start Slot": "100",
+            "End Slot": "600",
+            "Cluster": ""
+        },
+        "paZone6_Low": {
+            "Start Aisle": "176",
+            "End Aisle": "187",
+            "Start Slot": "100",
+            "End Slot": "345",
+            "Cluster": ""
+        },
+        "paZone7_High": {
+            "Start Aisle": "190",
+            "End Aisle": "203",
+            "Start Slot": "400",
+            "End Slot": "600",
+            "Cluster": ""
+        },
+        "paZone7_Low": {
+            "Start Aisle": "190",
+            "End Aisle": "203",
+            "Start Slot": "100",
+            "End Slot": "342",
+            "Cluster": ""
+        },
+        "paZone8_High": {
+            "Start Aisle": "204",
+            "End Aisle": "215",
+            "Start Slot": "400",
+            "End Slot": "600",
+            "Cluster": ""
+        },
+        "paZone8_Low": {
+            "Start Aisle": "204",
+            "End Aisle": "215",
+            "Start Slot": "100",
+            "End Slot": "342",
+            "Cluster": ""
+        },
+        "paZone9_High": {
+            "Start Aisle": "221",
+            "End Aisle": "233",
+            "Start Slot": "400",
+            "End Slot": "600",
+            "Cluster": ""
+        },
+        "paZone9_Low": {
+            "Start Aisle": "222",
+            "End Aisle": "233",
+            "Start Slot": "100",
+            "End Slot": "342",
+            "Cluster": ""
+        }
+    }
+}

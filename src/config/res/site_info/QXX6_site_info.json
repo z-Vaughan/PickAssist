@@ -1,0 +1,181 @@
+{
+    "site_code": "QXX6",
+    "timezone": "America/Chicago",
+    "pick_areas": {
+        "101-111": {
+            "Start Aisle": "101",
+            "End Aisle": "111",
+            "Start Slot": "220",
+            "End Slot": "585",
+            "Cluster": ""
+        },
+        "201-212": {
+            "Start Aisle": "201",
+            "End Aisle": "212",
+            "Start Slot": "215",
+            "End Slot": "615",
+            "Cluster": ""
+        },
+        "213-224": {
+            "Start Aisle": "213",
+            "End Aisle": "224",
+            "Start Slot": "215",
+            "End Slot": "615",
+            "Cluster": ""
+        },
+        "225-236": {
+            "Start Aisle": "225",
+            "End Aisle": "236",
+            "Start Slot": "215",
+            "End Slot": "615",
+            "Cluster": ""
+        },
+        "237-250": {
+            "Start Aisle": "237",
+            "End Aisle": "250",
+            "Start Slot": "215",
+            "End Slot": "615",
+            "Cluster": ""
+        },
+        "251-262": {
+            "Start Aisle": "251",
+            "End Aisle": "262",
+            "Start Slot": "215",
+            "End Slot": "615",
+            "Cluster": ""
+        },
+        "263-276": {
+            "Start Aisle": "263",
+            "End Aisle": "276",
+            "Start Slot": "215",
+            "End Slot": "615",
+            "Cluster": ""
+        },
+        "283-292": {
+            "Start Aisle": "283",
+            "End Aisle": "292",
+            "Start Slot": "210",
+            "End Slot": "565",
+            "Cluster": ""
+        },
+        "293-304": {
+            "Start Aisle": "293",
+            "End Aisle": "304",
+            "Start Slot": "210",
+            "End Slot": "565",
+            "Cluster": ""
+        },
+        "305-316": {
+            "Start Aisle": "305",
+            "End Aisle": "316",
+            "Start Slot": "210",
+            "End Slot": "565",
+            "Cluster": ""
+        },
+        "317-330": {
+            "Start Aisle": "317",
+            "End Aisle": "330",
+            "Start Slot": "210",
+            "End Slot": "565",
+            "Cluster": ""
+        },
+        "331-342": {
+            "Start Aisle": "331",
+            "End Aisle": "342",
+            "Start Slot": "210",
+            "End Slot": "565",
+            "Cluster": ""
+        },
+        "343-354": {
+            "Start Aisle": "343",
+            "End Aisle": "354",
+            "Start Slot": "210",
+            "End Slot": "565",
+            "Cluster": ""
+        },
+        "355-368": {
+            "Start Aisle": "355",
+            "End Aisle": "368",
+            "Start Slot": "210",
+            "End Slot": "565",
+            "Cluster": ""
+        },
+        "369-380": {
+            "Start Aisle": "369",
+            "End Aisle": "381",
+            "Start Slot": "100",
+            "End Slot": "565",
+            "Cluster": ""
+        },
+        "381-390": {
+            "Start Aisle": "381",
+            "End Aisle": "390",
+            "Start Slot": "100",
+            "End Slot": "565",
+            "Cluster": ""
+        },
+        "395-404": {
+            "Start Aisle": "395",
+            "End Aisle": "404",
+            "Start Slot": "100",
+            "End Slot": "630",
+            "Cluster": ""
+        },
+        "405-418": {
+            "Start Aisle": "405",
+            "End Aisle": "418",
+            "Start Slot": "100",
+            "End Slot": "630",
+            "Cluster": ""
+        },
+        "419-430": {
+            "Start Aisle": "419",
+            "End Aisle": "430",
+            "Start Slot": "100",
+            "End Slot": "630",
+            "Cluster": ""
+        },
+        "431-442": {
+            "Start Aisle": "431",
+            "End Aisle": "442",
+            "Start Slot": "100",
+            "End Slot": "630",
+            "Cluster": ""
+        },
+        "443-456": {
+            "Start Aisle": "443",
+            "End Aisle": "456",
+            "Start Slot": "100",
+            "End Slot": "630",
+            "Cluster": ""
+        },
+        "457-468": {
+            "Start Aisle": "457",
+            "End Aisle": "468",
+            "Start Slot": "125",
+            "End Slot": "610",
+            "Cluster": ""
+        },
+        "469-480": {
+            "Start Aisle": "469",
+            "End Aisle": "480",
+            "Start Slot": "125",
+            "End Slot": "610",
+            "Cluster": ""
+        },
+        "481-494": {
+            "Start Aisle": "481",
+            "End Aisle": "494",
+            "Start Slot": "125",
+            "End Slot": "610",
+            "Cluster": ""
+        },
+        "495-506": {
+            "Start Aisle": "495",
+            "End Aisle": "506",
+            "Start Slot": "125",
+            "End Slot": "610",
+            "Cluster": ""
+        }
+    }
+}

@@ -1,0 +1,15 @@
+Metadata-Version: 2.2
+Name: AmznReq
+Version: 1.0.1
+Summary: AmznReq is a class designed specifically for facilitating communication with internal web applications at Amazon.
+Author: Kohei Miyashita
+Author-email: mikohei@amazon.co.jp
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: requests_kerberos
+Requires-Dist: beautifulsoup4
+Requires-Dist: browser_cookie3
+Dynamic: author
+Dynamic: author-email
+Dynamic: requires-dist
+Dynamic: summary
